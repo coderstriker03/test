@@ -26,8 +26,10 @@ jobs:
         with:
           image-ref: "postgres:latest"
           format: "json"
-          security-checks: "vuln"
+          vuln-type: "os,library"
+          severity: "UNKNOWN,LOW,MEDIUM,HIGH,CRITICAL"
           output: "docker-security-scan.json.tmp"
+
 
       - name: Keep only the results section
         id: update
