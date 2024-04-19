@@ -35,7 +35,7 @@ jobs:
         run: |
           if [ ! -f docker-security-scan.json]; then
             jq --raw-output '.Results | del(.[].Vulnerabilities[].Layer) | del(.[].Vulnerabilities[].LastModifiedDate)' docker-security-scan.json.tmp > docker-security-scan.json			
-	    else 
+          else 
             BEFORE="$(jq '.[].Vulnerabilities|length' < docker-security-scan.json)"
             jq --raw-output '.Results | del(.[].Vulnerabilities[].Layer) | del(.[].Vulnerabilities[].LastModifiedDate)' docker-security-scan.json.tmp > docker-security-scan.json
             rm -f docker-security-scan.json.tmp
