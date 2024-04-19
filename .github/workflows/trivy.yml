@@ -30,10 +30,13 @@ jobs:
           image-ref: 'postgres:latest'
           #github-pat: ${{ secrets.GITHUB_TOKEN }} # or ${{ secrets.github_pat_name }} if you're using a PAT
 
-
-      - name: Get version
-        id: vars
-        run: echo "version=$(cat docker-security-scan.json.tmp)" >> $GITHUB_OUTPUT
-      - name: Test output
-        run: echo ${{ steps.vars.outputs.version }}
-
+      - name: Check file existence
+        id: check_files
+        uses: andstor/file-existence-action@v1
+        with:
+          files: "/etc/passwd"
+      
+      - name: File exists
+        if: steps.check_files.outputs.files_exists == 'true'
+        run: echo "It exists !"
+  
