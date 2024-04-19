@@ -1,4 +1,4 @@
-name: Scan docker image
+ docker image
 permissions: read-all
 
 on:
@@ -34,15 +34,14 @@ jobs:
         id: update
         run: |
           if [ ! -f docker-security-scan.json]; then
-            jq --raw-output '.Results | del(.[].Vulnerabilities[].Layer) | del(.[].Vulnerabilities[].LastModifiedDate)' docker-security-scan.json.tmp > docker-security-scan.json
-			
+            jq --raw-output '.Results | del(.[].Vulnerabilities[].Layer) | del(.[].Vulnerabilities[].LastModifiedDate)' docker-security-scan.json.tmp > docker-security-scan.json			
 		  else 
-			BEFORE="$(jq '.[].Vulnerabilities|length' < docker-security-scan.json)"
-			jq --raw-output '.Results | del(.[].Vulnerabilities[].Layer) | del(.[].Vulnerabilities[].LastModifiedDate)' docker-security-scan.json.tmp > docker-security-scan.json
-			rm -f docker-security-scan.json.tmp
-			AFTER="$(jq '.[].Vulnerabilities|length' < docker-security-scan.json)"
-			if [[ $BEFORE -lt $AFTER ]]; then
-				echo "labels=new CVE" >> "$GITHUB_OUTPUT"
-			fi
+            BEFORE="$(jq '.[].Vulnerabilities|length' < docker-security-scan.json)"
+            jq --raw-output '.Results | del(.[].Vulnerabilities[].Layer) | del(.[].Vulnerabilities[].LastModifiedDate)' docker-security-scan.json.tmp > docker-security-scan.json
+            rm -f docker-security-scan.json.tmp
+            AFTER="$(jq '.[].Vulnerabilities|length' < docker-security-scan.json)"
+            if [[ $BEFORE -lt $AFTER ]]; then
+              echo "labels=new CVE" >> "$GITHUB_OUTPUT"
+            fi
           fi
           
