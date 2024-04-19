@@ -1,3 +1,4 @@
+###original verion ko ##
 name: Scan docker image
 permissions: read-all
 
@@ -18,38 +19,31 @@ jobs:
       - name: ⬇️ Checkout
         uses: actions/checkout@v3.3.0
 
-      - name: ☁️  Download latest image
-        run: docker pull postgres:latest
+      - name: ☁️ Download latest image
+        run: docker pull postgres:14
 
-      - name: Run Trivy in GitHub SBOM mode and submit results to Dependency Graph
+      - name: Run Trivy vulnerability scanner
         uses: aquasecurity/trivy-action@master
         with:
-          scan-type: 'fs'
-          format: 'json'
-          output: 'dependency-results.sbom.json'
-          image-ref: 'postgres:latest'
-          #github-pat: ${{ secrets.GITHUB_TOKEN }} # or ${{ secrets.github_pat_name }} if you're using a PAT
-
+          image-ref: "postgres:14"
+          format: "json"
+          vuln-type: "os,library"
+          severity: "UNKNOWN,LOW,MEDIUM,HIGH,CRITICAL"
+          output: "docker-security-scan.json.tmp"
 
       - name: Keep only the results section
         id: update
         run: |
-          BEFORE="$(jq '.[].Vulnerabilities|length' < docker-security-scan.json)"
-          jq --raw-output '.Results | del(.[].Vulnerabilities[].Layer) | del(.[].Vulnerabilities[].LastModifiedDate)' docker-security-scan.json.tmp > docker-security-scan.json
-          rm -f docker-security-scan.json.tmp
-          AFTER="$(jq '.[].Vulnerabilities|length' < docker-security-scan.json)"
-          if [[ $BEFORE -lt $AFTER ]]; then
-            echo "labels=new CVE" >> "$GITHUB_OUTPUT"
+          if [ -f docker-security-scan.json.tmp ]; then
+            BEFORE="$(jq '.[].Vulnerabilities|length' < docker-security-scan.json.tmp)"
+            jq --raw-output '.Results | del(.[].Vulnerabilities[].Layer) | del(.[].Vulnerabilities[].LastModifiedDate)' docker-security-scan.json.tmp > docker-security-scan.json
+            rm -f docker-security-scan.json.tmp
+            AFTER="$(jq '.[].Vulnerabilities|length' < docker-security-scan.json)"
+            if [[ $BEFORE -lt $AFTER ]]; then
+              echo "labels=new CVE" >> "$GITHUB_OUTPUT"
+            fi
+          else
+            echo "docker-security-scan.json.tmp does not exist."
+            exit 1
           fi
-
-      - name: Create the Pull Request
-        id: cpr
-        uses: peter-evans/create-pull-request@v4
-        with:
-          author: mergify-ci-bot <mergify-ci-bot@users.noreply.github.com>
-          title: "chore(docker): image security scanning report"
-          labels: ${{ steps.update.outputs.labels }}
-          body: >
-            This is the docker image security scanning report
-          branch: trivy/daily-report
-          base: main
+          
