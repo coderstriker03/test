@@ -21,15 +21,15 @@ jobs:
       - name: ☁️ Download latest image
         run: docker pull postgres:14
 
-      - name: Run Trivy in GitHub SBOM mode and submit results to Dependency Graph
+      - name: Run Trivy vulnerability scanner
         uses: aquasecurity/trivy-action@master
         with:
-          scan-type: 'fs'
-          format: 'json'
-          output: 'docker-security-scan.json.tmp'
-          image-ref: 'postgres:latest'
-          #github-pat: ${{ secrets.GITHUB_TOKEN }} # or ${{ secrets.github_pat_name }} if you're using a PAT
-
+          image-ref: "postgres:14"
+          format: "json"
+          vuln-type: "os,library"
+          severity: "UNKNOWN,LOW,MEDIUM,HIGH,CRITICAL"
+          output: "docker-security-scan.json.tmp"
+		
       - name: Check file existence
         id: check_files
         uses: andstor/file-existence-action@v1
