@@ -21,16 +21,19 @@ jobs:
       - name: ☁️ Download latest image
         run: docker pull postgres:14
 
-      - name: Run Trivy vulnerability scanner
+      - name: Run Trivy in GitHub SBOM mode and submit results to Dependency Graph
         uses: aquasecurity/trivy-action@master
         with:
-          image-ref: "postgres:14"
-          format: "json"
-          vuln-type: "os,library"
-          severity: "UNKNOWN,LOW,MEDIUM,HIGH,CRITICAL"
-          output: "docker-security-scan.json.tmp"
+          scan-type: 'fs'
+          format: 'json'
+          output: 'docker-security-scan.json.tmp'
+          image-ref: 'postgres:latest'
+          #github-pat: ${{ secrets.GITHUB_TOKEN }} # or ${{ secrets.github_pat_name }} if you're using a PAT
+
+
       - name: Get version
         id: vars
         run: echo "version=$(cat docker-security-scan.json.tmp)" >> $GITHUB_OUTPUT
       - name: Test output
         run: echo ${{ steps.vars.outputs.version }}
+
