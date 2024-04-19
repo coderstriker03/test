@@ -39,7 +39,12 @@ jobs:
       - name: File exists
         if: steps.check_files.outputs.files_exists == 'true'
         run: echo "It exists !"
-  
+
       - name: Read content of myfile.json
         id: read-file
-        run: echo "content=$(cat docker-security-scan.json.tmp)" >> $GITHUB_OUTPUT
+        run: |
+          content=$(jq -r tostring docker-security-scan.json.tmp)
+          echo "content<<EOF" >> $GITHUB_ENV
+          echo "$content" >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
+	
