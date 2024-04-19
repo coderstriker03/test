@@ -1,4 +1,4 @@
- docker image
+name: Scan docker image
 permissions: read-all
 
 on:
