@@ -29,7 +29,7 @@ jobs:
           vuln-type: "os,library"
           severity: "UNKNOWN,LOW,MEDIUM,HIGH,CRITICAL"
           output: "docker-security-scan.json.tmp"
-		
+
       - name: Check file existence
         id: check_files
         uses: andstor/file-existence-action@v1
