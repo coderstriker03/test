@@ -47,4 +47,3 @@ jobs:
           echo "content<<EOF" >> $GITHUB_ENV
           echo "$content" >> $GITHUB_ENV
           echo "EOF" >> $GITHUB_ENV
-	
