@@ -40,10 +40,8 @@ jobs:
         if: steps.check_files.outputs.files_exists == 'true'
         run: echo "It exists !"
 
-      - name: Read content of myfile.json
-        id: read-file
-        run: |
-          content=$(jq -r tostring docker-security-scan.json.tmp)
-          echo "content<<EOF" >> $GITHUB_ENV
-          echo "$content" >> $GITHUB_ENV
-          echo "EOF" >> $GITHUB_ENV
+      - name: Upload security scan result as artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: security-scan-results
+          path: docker-security-scan.json.tmp
