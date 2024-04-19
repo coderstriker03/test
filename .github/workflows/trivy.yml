@@ -42,7 +42,4 @@ jobs:
   
       - name: Read content of myfile.json
         id: read-file
-        run: echo "content=$(cat docker-security-scan.json.tmp)" >> $GITHUB_ENV
-
-      - name: Display content of myfile.json
-        run: echo "The content of myfile.json is: ${{ env.content }}"
+        run: echo "content=$(cat docker-security-scan.json.tmp)" >> $GITHUB_OUTPUT
