@@ -35,8 +35,7 @@ jobs:
         run: |
           if [ -f docker-security-scan.json ]; then
             BEFORE="$(jq '.[].Vulnerabilities|length' < docker-security-scan.json)"
-            jq --raw-output '.Results | del(.[].Vulnerabilities[].Layer) | del(.[].Vulnerabilities[].LastModifiedDate)' docker-security-scan.json.tmp > docker-security-scan.json
-			jq '(.Results[] | select(.Vulnerabilities != null) | .Vulnerabilities[] | select(.Layer != null or .LastModifiedDate != null) ) |= del(.Layer, .LastModifiedDate) | .Results' docker-security-scan.json.tmp > docker-security-scan.json
+            jq '(.Results[] | select(.Vulnerabilities != null) | .Vulnerabilities[] | select(.Layer != null or .LastModifiedDate != null) ) |= del(.Layer, .LastModifiedDate) | .Results' docker-security-scan.json.tmp > docker-security-scan.json
             rm -f docker-security-scan.json.tmp
             AFTER="$(jq '.[].Vulnerabilities|length' < docker-security-scan.json| head -1)"
             if [[ $BEFORE -lt $AFTER ]]; then
@@ -44,5 +43,5 @@ jobs:
             fi
           else
             echo "docker-security-scan.json.tmp does not exist. creating new one "
-			jq '(.Results[] | select(.Vulnerabilities != null) | .Vulnerabilities[] | select(.Layer != null or .LastModifiedDate != null) ) |= del(.Layer, .LastModifiedDate) | .Results' docker-security-scan.json.tmp > docker-security-scan.json
+            jq '(.Results[] | select(.Vulnerabilities != null) | .Vulnerabilities[] | select(.Layer != null or .LastModifiedDate != null) ) |= del(.Layer, .LastModifiedDate) | .Results' docker-security-scan.json.tmp > docker-security-scan.json
           fi
