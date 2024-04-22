@@ -45,3 +45,5 @@ jobs:
             echo "docker-security-scan.json.tmp does not exist. creating new one "
             jq '(.Results[] | select(.Vulnerabilities != null) | .Vulnerabilities[] | select(.Layer != null or .LastModifiedDate != null) ) |= del(.Layer, .LastModifiedDate) | .Results' docker-security-scan.json.tmp > docker-security-scan.json
           fi
+      - name: Display test.txt content
+        run: cat test.txt
