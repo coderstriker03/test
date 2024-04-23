@@ -30,9 +30,20 @@ jobs:
           severity: "UNKNOWN,LOW,MEDIUM,HIGH,CRITICAL"
           output: "docker-security-scan.json.tmp"
 
-
-      - uses: actions/download-artifact@v4
-        with:
-          name: security-scan-results
-      - name: Display structure of downloaded files
-        run: ls -lrt
+      - name: Keep only the results section
+        id: update
+        run: |
+          if [ -f docker-security-scan.json ]; then
+            cp docker-security-scan.json docker-security-scan.json.old
+            #BEFORE="$(jq '.[].Vulnerabilities|length' < docker-security-scan.json)"
+            jq '(.Results[] | select(.Vulnerabilities != null) | .Vulnerabilities[] | select(.Layer != null or .LastModifiedDate != null) ) |= del(.Layer, .LastModifiedDate) | .Results' docker-security-scan.json.tmp > docker-security-scan.json
+            rm -f docker-security-scan.json.tmp
+            #AFTER="$(jq '.[].Vulnerabilities|length' < docker-security-scan.json| head -1)"
+            if cmp docker-security-scan.json docker-security-scan.json.old ; then
+              echo "labels=new CVE" >> "$GITHUB_OUTPUT"
+            else 
+			  echo "No new CVE" >> "$GITHUB_OUTPUT"
+          else
+            echo "first run docker-security-scan.json does not exist. create one!"
+            jq '(.Results[] | select(.Vulnerabilities != null) | .Vulnerabilities[] | select(.Layer != null or .LastModifiedDate != null) ) |= del(.Layer, .LastModifiedDate) | .Results' docker-security-scan.json.tmp > docker-security-scan.json
+          fi
