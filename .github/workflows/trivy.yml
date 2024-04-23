@@ -42,19 +42,23 @@ jobs:
             sed -i '/BEGIN PRIVATE KEY/d' docker-security-scan.json
             rm -f docker-security-scan.json.tmp
             #AFTER="$(jq '.[].Vulnerabilities|length' < docker-security-scan.json| head -1)"
-            #if cmp docker-security-scan.json docker-security-scan.json.old ; then
-            #if sdiff -s docker-security-scan.json docker-security-scan.json.old ; then
-            if sdiff -s docker-security-scan.json docker-security-scan.json ; then
-              echo "labels=new CVE" >> "$GITHUB_OUTPUT"
-              echo "new CVE DETECTED!!!!!"
-            else 
+            if cmp docker-security-scan.json docker-security-scan.json.old ; then
               echo "labels=No new CVE" >> "$GITHUB_OUTPUT"
-              echo "NOTHING DETECTED!!!!!"
+              echo "no new CVE DETECTED"
+            else 
+              echo "labels=new CVE" >> "$GITHUB_OUTPUT"
+              echo "new CVE detected!"
             fi
             rm docker-security-scan.json.old
           else
             echo "first run docker-security-scan.json does not exist. create one!"
             jq '(.Results[] | select(.Vulnerabilities != null) | .Vulnerabilities[] | select(.Layer != null or .LastModifiedDate != null) ) |= del(.Layer, .LastModifiedDate) | .Results' docker-security-scan.json.tmp > docker-security-scan.json
+            sed -i '/"DiffID": "sha256/d' docker-security-scan.json
+            sed -i '/BEGIN PRIVATE KEY/d' docker-security-scan.json
+            rm -f docker-security-scan.json.tmp
+            echo "labels=new CVE" >> "$GITHUB_OUTPUT"
+            echo "new CVE initilized!"
+
           fi
       - name: Create the Pull Request
         id: cpr
