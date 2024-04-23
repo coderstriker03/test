@@ -12,6 +12,8 @@ concurrency:
 
 jobs:
   docker-image-security-scan:
+    permissions:
+      contents: write
     timeout-minutes: 10
     runs-on: ubuntu-20.04
     steps:
