@@ -54,6 +54,7 @@ jobs:
         uses: peter-evans/create-pull-request@v6
         with:
           author: mergify-ci-bot <mergify-ci-bot@users.noreply.github.com>
+		  token: ${{ secrets.PAT }}
           title: "chore(docker): image security scanning report"
           labels: ${{ steps.update.outputs.labels }}
           body: >
