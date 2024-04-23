@@ -42,7 +42,7 @@ jobs:
             if cmp docker-security-scan.json docker-security-scan.json.old ; then
               echo "labels=new CVE" >> "$GITHUB_OUTPUT"
             else 
-              echo "No new CVE" >> "$GITHUB_OUTPUT"
+              echo "labels=No new CVE" >> "$GITHUB_OUTPUT"
             fi
           else
             echo "first run docker-security-scan.json does not exist. create one!"
