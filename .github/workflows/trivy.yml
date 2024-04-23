@@ -43,7 +43,8 @@ jobs:
             rm -f docker-security-scan.json.tmp
             #AFTER="$(jq '.[].Vulnerabilities|length' < docker-security-scan.json| head -1)"
             #if cmp docker-security-scan.json docker-security-scan.json.old ; then
-            if sdiff -s docker-security-scan.json docker-security-scan.json.old ; then
+            #if sdiff -s docker-security-scan.json docker-security-scan.json.old ; then
+            if sdiff -s docker-security-scan.json docker-security-scan.json ; then
               echo "labels=new CVE" >> "$GITHUB_OUTPUT"
               echo "new CVE DETECTED!!!!!"
             else 
