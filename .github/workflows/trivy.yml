@@ -57,5 +57,5 @@ jobs:
           labels: ${{ steps.update.outputs.labels }}
           body: >
             This is the docker image security scanning report
-          branch: trivy/daily-report
+          branch: dev
           base: main
