@@ -13,9 +13,6 @@
         },
         "InstalledVersion": "2.6.1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2011-3374",
         "DataSource": {
@@ -50,8 +47,7 @@
           "https://snyk.io/vuln/SNYK-LINUX-APT-116518",
           "https://ubuntu.com/security/CVE-2011-3374"
         ],
-        "PublishedDate": "2019-11-26T00:15:11.03Z",
-        "LastModifiedDate": "2021-02-09T16:08:18.683Z"
+        "PublishedDate": "2019-11-26T00:15:11.03Z"
       },
       {
         "VulnerabilityID": "TEMP-0841856-B18BAF",
@@ -62,9 +58,6 @@
         },
         "InstalledVersion": "5.2.15-2+b2",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://security-tracker.debian.org/tracker/TEMP-0841856-B18BAF",
         "DataSource": {
@@ -87,9 +80,6 @@
         },
         "InstalledVersion": "1:2.38.1-5+deb12u1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2022-0563",
         "DataSource": {
@@ -133,8 +123,7 @@
           "https://security.netapp.com/advisory/ntap-20220331-0002/",
           "https://www.cve.org/CVERecord?id=CVE-2022-0563"
         ],
-        "PublishedDate": "2022-02-21T19:15:08.393Z",
-        "LastModifiedDate": "2024-01-07T09:15:08.713Z"
+        "PublishedDate": "2022-02-21T19:15:08.393Z"
       },
       {
         "VulnerabilityID": "CVE-2016-2781",
@@ -145,9 +134,6 @@
         },
         "InstalledVersion": "9.1-1",
         "Status": "will_not_fix",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2016-2781",
         "DataSource": {
@@ -192,8 +178,7 @@
           "https://nvd.nist.gov/vuln/detail/CVE-2016-2781",
           "https://www.cve.org/CVERecord?id=CVE-2016-2781"
         ],
-        "PublishedDate": "2017-02-07T15:59:00.333Z",
-        "LastModifiedDate": "2023-11-07T02:32:03.347Z"
+        "PublishedDate": "2017-02-07T15:59:00.333Z"
       },
       {
         "VulnerabilityID": "CVE-2017-18018",
@@ -204,9 +189,6 @@
         },
         "InstalledVersion": "9.1-1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2017-18018",
         "DataSource": {
@@ -243,8 +225,7 @@
           "https://nvd.nist.gov/vuln/detail/CVE-2017-18018",
           "https://www.cve.org/CVERecord?id=CVE-2017-18018"
         ],
-        "PublishedDate": "2018-01-04T04:29:00.19Z",
-        "LastModifiedDate": "2018-01-19T15:46:46.05Z"
+        "PublishedDate": "2018-01-04T04:29:00.19Z"
       },
       {
         "VulnerabilityID": "CVE-2022-3219",
@@ -255,9 +236,6 @@
         },
         "InstalledVersion": "2.2.40-1.1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:7e5b0d46002416716318e9fa75f91635bb1fcf4f9d2f24ba88938379769212b1"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2022-3219",
         "DataSource": {
@@ -297,8 +275,7 @@
           "https://security.netapp.com/advisory/ntap-20230324-0001/",
           "https://www.cve.org/CVERecord?id=CVE-2022-3219"
         ],
-        "PublishedDate": "2023-02-23T20:15:12.393Z",
-        "LastModifiedDate": "2023-05-26T16:31:34.07Z"
+        "PublishedDate": "2023-02-23T20:15:12.393Z"
       },
       {
         "VulnerabilityID": "CVE-2023-4039",
@@ -309,9 +286,6 @@
         },
         "InstalledVersion": "12.2.0-14",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "SeveritySource": "nvd",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-4039",
         "DataSource": {
@@ -351,8 +325,7 @@
           "https://rtx.meta.security/mitigation/2023/09/12/CVE-2023-4039.html",
           "https://www.cve.org/CVERecord?id=CVE-2023-4039"
         ],
-        "PublishedDate": "2023-09-13T09:15:15.69Z",
-        "LastModifiedDate": "2024-02-19T23:15:07.68Z"
+        "PublishedDate": "2023-09-13T09:15:15.69Z"
       },
       {
         "VulnerabilityID": "CVE-2022-27943",
@@ -363,9 +336,6 @@
         },
         "InstalledVersion": "12.2.0-14",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2022-27943",
         "DataSource": {
@@ -410,8 +380,7 @@
           "https://sourceware.org/bugzilla/show_bug.cgi?id=28995",
           "https://www.cve.org/CVERecord?id=CVE-2022-27943"
         ],
-        "PublishedDate": "2022-03-26T13:15:07.9Z",
-        "LastModifiedDate": "2023-11-07T03:45:32.64Z"
+        "PublishedDate": "2022-03-26T13:15:07.9Z"
       },
       {
         "VulnerabilityID": "CVE-2022-3219",
@@ -422,9 +391,6 @@
         },
         "InstalledVersion": "2.2.40-1.1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:7e5b0d46002416716318e9fa75f91635bb1fcf4f9d2f24ba88938379769212b1"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2022-3219",
         "DataSource": {
@@ -464,8 +430,7 @@
           "https://security.netapp.com/advisory/ntap-20230324-0001/",
           "https://www.cve.org/CVERecord?id=CVE-2022-3219"
         ],
-        "PublishedDate": "2023-02-23T20:15:12.393Z",
-        "LastModifiedDate": "2023-05-26T16:31:34.07Z"
+        "PublishedDate": "2023-02-23T20:15:12.393Z"
       },
       {
         "VulnerabilityID": "CVE-2022-3219",
@@ -476,9 +441,6 @@
         },
         "InstalledVersion": "2.2.40-1.1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:7e5b0d46002416716318e9fa75f91635bb1fcf4f9d2f24ba88938379769212b1"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2022-3219",
         "DataSource": {
@@ -518,8 +480,7 @@
           "https://security.netapp.com/advisory/ntap-20230324-0001/",
           "https://www.cve.org/CVERecord?id=CVE-2022-3219"
         ],
-        "PublishedDate": "2023-02-23T20:15:12.393Z",
-        "LastModifiedDate": "2023-05-26T16:31:34.07Z"
+        "PublishedDate": "2023-02-23T20:15:12.393Z"
       },
       {
         "VulnerabilityID": "CVE-2022-3219",
@@ -530,9 +491,6 @@
         },
         "InstalledVersion": "2.2.40-1.1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:7e5b0d46002416716318e9fa75f91635bb1fcf4f9d2f24ba88938379769212b1"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2022-3219",
         "DataSource": {
@@ -572,8 +530,7 @@
           "https://security.netapp.com/advisory/ntap-20230324-0001/",
           "https://www.cve.org/CVERecord?id=CVE-2022-3219"
         ],
-        "PublishedDate": "2023-02-23T20:15:12.393Z",
-        "LastModifiedDate": "2023-05-26T16:31:34.07Z"
+        "PublishedDate": "2023-02-23T20:15:12.393Z"
       },
       {
         "VulnerabilityID": "CVE-2022-3219",
@@ -584,9 +541,6 @@
         },
         "InstalledVersion": "2.2.40-1.1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:7e5b0d46002416716318e9fa75f91635bb1fcf4f9d2f24ba88938379769212b1"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2022-3219",
         "DataSource": {
@@ -626,8 +580,7 @@
           "https://security.netapp.com/advisory/ntap-20230324-0001/",
           "https://www.cve.org/CVERecord?id=CVE-2022-3219"
         ],
-        "PublishedDate": "2023-02-23T20:15:12.393Z",
-        "LastModifiedDate": "2023-05-26T16:31:34.07Z"
+        "PublishedDate": "2023-02-23T20:15:12.393Z"
       },
       {
         "VulnerabilityID": "CVE-2022-3219",
@@ -638,9 +591,6 @@
         },
         "InstalledVersion": "2.2.40-1.1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:7e5b0d46002416716318e9fa75f91635bb1fcf4f9d2f24ba88938379769212b1"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2022-3219",
         "DataSource": {
@@ -680,8 +630,7 @@
           "https://security.netapp.com/advisory/ntap-20230324-0001/",
           "https://www.cve.org/CVERecord?id=CVE-2022-3219"
         ],
-        "PublishedDate": "2023-02-23T20:15:12.393Z",
-        "LastModifiedDate": "2023-05-26T16:31:34.07Z"
+        "PublishedDate": "2023-02-23T20:15:12.393Z"
       },
       {
         "VulnerabilityID": "CVE-2022-3219",
@@ -692,9 +641,6 @@
         },
         "InstalledVersion": "2.2.40-1.1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:7e5b0d46002416716318e9fa75f91635bb1fcf4f9d2f24ba88938379769212b1"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2022-3219",
         "DataSource": {
@@ -734,8 +680,7 @@
           "https://security.netapp.com/advisory/ntap-20230324-0001/",
           "https://www.cve.org/CVERecord?id=CVE-2022-3219"
         ],
-        "PublishedDate": "2023-02-23T20:15:12.393Z",
-        "LastModifiedDate": "2023-05-26T16:31:34.07Z"
+        "PublishedDate": "2023-02-23T20:15:12.393Z"
       },
       {
         "VulnerabilityID": "CVE-2022-3219",
@@ -746,9 +691,6 @@
         },
         "InstalledVersion": "2.2.40-1.1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:7e5b0d46002416716318e9fa75f91635bb1fcf4f9d2f24ba88938379769212b1"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2022-3219",
         "DataSource": {
@@ -788,8 +730,7 @@
           "https://security.netapp.com/advisory/ntap-20230324-0001/",
           "https://www.cve.org/CVERecord?id=CVE-2022-3219"
         ],
-        "PublishedDate": "2023-02-23T20:15:12.393Z",
-        "LastModifiedDate": "2023-05-26T16:31:34.07Z"
+        "PublishedDate": "2023-02-23T20:15:12.393Z"
       },
       {
         "VulnerabilityID": "CVE-2022-3219",
@@ -800,9 +741,6 @@
         },
         "InstalledVersion": "2.2.40-1.1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:7e5b0d46002416716318e9fa75f91635bb1fcf4f9d2f24ba88938379769212b1"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2022-3219",
         "DataSource": {
@@ -842,8 +780,7 @@
           "https://security.netapp.com/advisory/ntap-20230324-0001/",
           "https://www.cve.org/CVERecord?id=CVE-2022-3219"
         ],
-        "PublishedDate": "2023-02-23T20:15:12.393Z",
-        "LastModifiedDate": "2023-05-26T16:31:34.07Z"
+        "PublishedDate": "2023-02-23T20:15:12.393Z"
       },
       {
         "VulnerabilityID": "CVE-2022-3219",
@@ -854,9 +791,6 @@
         },
         "InstalledVersion": "2.2.40-1.1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:7e5b0d46002416716318e9fa75f91635bb1fcf4f9d2f24ba88938379769212b1"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2022-3219",
         "DataSource": {
@@ -896,8 +830,7 @@
           "https://security.netapp.com/advisory/ntap-20230324-0001/",
           "https://www.cve.org/CVERecord?id=CVE-2022-3219"
         ],
-        "PublishedDate": "2023-02-23T20:15:12.393Z",
-        "LastModifiedDate": "2023-05-26T16:31:34.07Z"
+        "PublishedDate": "2023-02-23T20:15:12.393Z"
       },
       {
         "VulnerabilityID": "CVE-2022-3219",
@@ -908,9 +841,6 @@
         },
         "InstalledVersion": "2.2.40-1.1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2022-3219",
         "DataSource": {
@@ -950,8 +880,7 @@
           "https://security.netapp.com/advisory/ntap-20230324-0001/",
           "https://www.cve.org/CVERecord?id=CVE-2022-3219"
         ],
-        "PublishedDate": "2023-02-23T20:15:12.393Z",
-        "LastModifiedDate": "2023-05-26T16:31:34.07Z"
+        "PublishedDate": "2023-02-23T20:15:12.393Z"
       },
       {
         "VulnerabilityID": "CVE-2022-48624",
@@ -962,9 +891,6 @@
         },
         "InstalledVersion": "590-2",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:7e5b0d46002416716318e9fa75f91635bb1fcf4f9d2f24ba88938379769212b1"
-        },
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2022-48624",
         "DataSource": {
           "ID": "debian",
@@ -1006,8 +932,7 @@
           "https://ubuntu.com/security/notices/USN-6664-1",
           "https://www.cve.org/CVERecord?id=CVE-2022-48624"
         ],
-        "PublishedDate": "2024-02-19T01:15:48.643Z",
-        "LastModifiedDate": "2024-02-20T19:50:53.96Z"
+        "PublishedDate": "2024-02-19T01:15:48.643Z"
       },
       {
         "VulnerabilityID": "CVE-2024-32487",
@@ -1018,9 +943,6 @@
         },
         "InstalledVersion": "590-2",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:7e5b0d46002416716318e9fa75f91635bb1fcf4f9d2f24ba88938379769212b1"
-        },
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-32487",
         "DataSource": {
           "ID": "debian",
@@ -1047,8 +969,7 @@
           "https://www.openwall.com/lists/oss-security/2024/04/12/5",
           "https://www.openwall.com/lists/oss-security/2024/04/13/2"
         ],
-        "PublishedDate": "2024-04-13T15:15:52.683Z",
-        "LastModifiedDate": "2024-04-15T13:15:31.997Z"
+        "PublishedDate": "2024-04-13T15:15:52.683Z"
       },
       {
         "VulnerabilityID": "CVE-2011-3374",
@@ -1059,9 +980,6 @@
         },
         "InstalledVersion": "2.6.1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2011-3374",
         "DataSource": {
@@ -1096,8 +1014,7 @@
           "https://snyk.io/vuln/SNYK-LINUX-APT-116518",
           "https://ubuntu.com/security/CVE-2011-3374"
         ],
-        "PublishedDate": "2019-11-26T00:15:11.03Z",
-        "LastModifiedDate": "2021-02-09T16:08:18.683Z"
+        "PublishedDate": "2019-11-26T00:15:11.03Z"
       },
       {
         "VulnerabilityID": "CVE-2022-0563",
@@ -1108,9 +1025,6 @@
         },
         "InstalledVersion": "2.38.1-5+deb12u1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2022-0563",
         "DataSource": {
@@ -1154,8 +1068,7 @@
           "https://security.netapp.com/advisory/ntap-20220331-0002/",
           "https://www.cve.org/CVERecord?id=CVE-2022-0563"
         ],
-        "PublishedDate": "2022-02-21T19:15:08.393Z",
-        "LastModifiedDate": "2024-01-07T09:15:08.713Z"
+        "PublishedDate": "2022-02-21T19:15:08.393Z"
       },
       {
         "VulnerabilityID": "CVE-2024-2961",
@@ -1166,9 +1079,6 @@
         },
         "InstalledVersion": "2.36-9+deb12u4",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-2961",
         "DataSource": {
           "ID": "debian",
@@ -1199,8 +1109,7 @@
           "https://www.cve.org/CVERecord?id=CVE-2024-2961",
           "https://www.openwall.com/lists/oss-security/2024/04/17/9"
         ],
-        "PublishedDate": "2024-04-17T18:15:15.833Z",
-        "LastModifiedDate": "2024-04-17T20:08:21.887Z"
+        "PublishedDate": "2024-04-17T18:15:15.833Z"
       },
       {
         "VulnerabilityID": "CVE-2010-4756",
@@ -1211,9 +1120,6 @@
         },
         "InstalledVersion": "2.36-9+deb12u4",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2010-4756",
         "DataSource": {
@@ -1252,8 +1158,7 @@
           "https://nvd.nist.gov/vuln/detail/CVE-2010-4756",
           "https://www.cve.org/CVERecord?id=CVE-2010-4756"
         ],
-        "PublishedDate": "2011-03-02T20:00:01.037Z",
-        "LastModifiedDate": "2021-09-01T12:15:07.193Z"
+        "PublishedDate": "2011-03-02T20:00:01.037Z"
       },
       {
         "VulnerabilityID": "CVE-2018-20796",
@@ -1264,9 +1169,6 @@
         },
         "InstalledVersion": "2.36-9+deb12u4",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2018-20796",
         "DataSource": {
@@ -1308,8 +1210,7 @@
           "https://support.f5.com/csp/article/K26346590?utm_source=f5support&amp%3Butm_medium=RSS",
           "https://www.cve.org/CVERecord?id=CVE-2018-20796"
         ],
-        "PublishedDate": "2019-02-26T02:29:00.45Z",
-        "LastModifiedDate": "2023-11-07T02:56:20.983Z"
+        "PublishedDate": "2019-02-26T02:29:00.45Z"
       },
       {
         "VulnerabilityID": "CVE-2019-1010022",
@@ -1320,9 +1221,6 @@
         },
         "InstalledVersion": "2.36-9+deb12u4",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2019-1010022",
         "DataSource": {
@@ -1357,8 +1255,7 @@
           "https://ubuntu.com/security/CVE-2019-1010022",
           "https://www.cve.org/CVERecord?id=CVE-2019-1010022"
         ],
-        "PublishedDate": "2019-07-15T04:15:13.317Z",
-        "LastModifiedDate": "2024-04-11T01:03:18.89Z"
+        "PublishedDate": "2019-07-15T04:15:13.317Z"
       },
       {
         "VulnerabilityID": "CVE-2019-1010023",
@@ -1369,9 +1266,6 @@
         },
         "InstalledVersion": "2.36-9+deb12u4",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2019-1010023",
         "DataSource": {
@@ -1409,8 +1303,7 @@
           "https://ubuntu.com/security/CVE-2019-1010023",
           "https://www.cve.org/CVERecord?id=CVE-2019-1010023"
         ],
-        "PublishedDate": "2019-07-15T04:15:13.397Z",
-        "LastModifiedDate": "2024-04-11T01:03:18.97Z"
+        "PublishedDate": "2019-07-15T04:15:13.397Z"
       },
       {
         "VulnerabilityID": "CVE-2019-1010024",
@@ -1421,9 +1314,6 @@
         },
         "InstalledVersion": "2.36-9+deb12u4",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2019-1010024",
         "DataSource": {
@@ -1465,8 +1355,7 @@
           "https://ubuntu.com/security/CVE-2019-1010024",
           "https://www.cve.org/CVERecord?id=CVE-2019-1010024"
         ],
-        "PublishedDate": "2019-07-15T04:15:13.473Z",
-        "LastModifiedDate": "2024-04-11T01:03:19.04Z"
+        "PublishedDate": "2019-07-15T04:15:13.473Z"
       },
       {
         "VulnerabilityID": "CVE-2019-1010025",
@@ -1477,9 +1366,6 @@
         },
         "InstalledVersion": "2.36-9+deb12u4",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2019-1010025",
         "DataSource": {
@@ -1520,8 +1406,7 @@
           "https://ubuntu.com/security/CVE-2019-1010025",
           "https://www.cve.org/CVERecord?id=CVE-2019-1010025"
         ],
-        "PublishedDate": "2019-07-15T04:15:13.537Z",
-        "LastModifiedDate": "2024-04-11T01:03:19.103Z"
+        "PublishedDate": "2019-07-15T04:15:13.537Z"
       },
       {
         "VulnerabilityID": "CVE-2019-9192",
@@ -1532,9 +1417,6 @@
         },
         "InstalledVersion": "2.36-9+deb12u4",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2019-9192",
         "DataSource": {
@@ -1573,8 +1455,7 @@
           "https://support.f5.com/csp/article/K26346590?utm_source=f5support&amp%3Butm_medium=RSS",
           "https://www.cve.org/CVERecord?id=CVE-2019-9192"
         ],
-        "PublishedDate": "2019-02-26T18:29:00.34Z",
-        "LastModifiedDate": "2024-04-11T01:06:17.28Z"
+        "PublishedDate": "2019-02-26T18:29:00.34Z"
       },
       {
         "VulnerabilityID": "CVE-2024-2961",
@@ -1585,9 +1466,6 @@
         },
         "InstalledVersion": "2.36-9+deb12u4",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:a932fe3940248965ea3b18cec5b4732a7c6d7f0342505aa81b78b0664979617d"
-        },
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-2961",
         "DataSource": {
           "ID": "debian",
@@ -1618,8 +1496,7 @@
           "https://www.cve.org/CVERecord?id=CVE-2024-2961",
           "https://www.openwall.com/lists/oss-security/2024/04/17/9"
         ],
-        "PublishedDate": "2024-04-17T18:15:15.833Z",
-        "LastModifiedDate": "2024-04-17T20:08:21.887Z"
+        "PublishedDate": "2024-04-17T18:15:15.833Z"
       },
       {
         "VulnerabilityID": "CVE-2010-4756",
@@ -1630,9 +1507,6 @@
         },
         "InstalledVersion": "2.36-9+deb12u4",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:a932fe3940248965ea3b18cec5b4732a7c6d7f0342505aa81b78b0664979617d"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2010-4756",
         "DataSource": {
@@ -1671,8 +1545,7 @@
           "https://nvd.nist.gov/vuln/detail/CVE-2010-4756",
           "https://www.cve.org/CVERecord?id=CVE-2010-4756"
         ],
-        "PublishedDate": "2011-03-02T20:00:01.037Z",
-        "LastModifiedDate": "2021-09-01T12:15:07.193Z"
+        "PublishedDate": "2011-03-02T20:00:01.037Z"
       },
       {
         "VulnerabilityID": "CVE-2018-20796",
@@ -1683,9 +1556,6 @@
         },
         "InstalledVersion": "2.36-9+deb12u4",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:a932fe3940248965ea3b18cec5b4732a7c6d7f0342505aa81b78b0664979617d"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2018-20796",
         "DataSource": {
@@ -1727,8 +1597,7 @@
           "https://support.f5.com/csp/article/K26346590?utm_source=f5support&amp%3Butm_medium=RSS",
           "https://www.cve.org/CVERecord?id=CVE-2018-20796"
         ],
-        "PublishedDate": "2019-02-26T02:29:00.45Z",
-        "LastModifiedDate": "2023-11-07T02:56:20.983Z"
+        "PublishedDate": "2019-02-26T02:29:00.45Z"
       },
       {
         "VulnerabilityID": "CVE-2019-1010022",
@@ -1739,9 +1608,6 @@
         },
         "InstalledVersion": "2.36-9+deb12u4",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:a932fe3940248965ea3b18cec5b4732a7c6d7f0342505aa81b78b0664979617d"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2019-1010022",
         "DataSource": {
@@ -1776,8 +1642,7 @@
           "https://ubuntu.com/security/CVE-2019-1010022",
           "https://www.cve.org/CVERecord?id=CVE-2019-1010022"
         ],
-        "PublishedDate": "2019-07-15T04:15:13.317Z",
-        "LastModifiedDate": "2024-04-11T01:03:18.89Z"
+        "PublishedDate": "2019-07-15T04:15:13.317Z"
       },
       {
         "VulnerabilityID": "CVE-2019-1010023",
@@ -1788,9 +1653,6 @@
         },
         "InstalledVersion": "2.36-9+deb12u4",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:a932fe3940248965ea3b18cec5b4732a7c6d7f0342505aa81b78b0664979617d"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2019-1010023",
         "DataSource": {
@@ -1828,8 +1690,7 @@
           "https://ubuntu.com/security/CVE-2019-1010023",
           "https://www.cve.org/CVERecord?id=CVE-2019-1010023"
         ],
-        "PublishedDate": "2019-07-15T04:15:13.397Z",
-        "LastModifiedDate": "2024-04-11T01:03:18.97Z"
+        "PublishedDate": "2019-07-15T04:15:13.397Z"
       },
       {
         "VulnerabilityID": "CVE-2019-1010024",
@@ -1840,9 +1701,6 @@
         },
         "InstalledVersion": "2.36-9+deb12u4",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:a932fe3940248965ea3b18cec5b4732a7c6d7f0342505aa81b78b0664979617d"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2019-1010024",
         "DataSource": {
@@ -1884,8 +1742,7 @@
           "https://ubuntu.com/security/CVE-2019-1010024",
           "https://www.cve.org/CVERecord?id=CVE-2019-1010024"
         ],
-        "PublishedDate": "2019-07-15T04:15:13.473Z",
-        "LastModifiedDate": "2024-04-11T01:03:19.04Z"
+        "PublishedDate": "2019-07-15T04:15:13.473Z"
       },
       {
         "VulnerabilityID": "CVE-2019-1010025",
@@ -1896,9 +1753,6 @@
         },
         "InstalledVersion": "2.36-9+deb12u4",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:a932fe3940248965ea3b18cec5b4732a7c6d7f0342505aa81b78b0664979617d"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2019-1010025",
         "DataSource": {
@@ -1939,8 +1793,7 @@
           "https://ubuntu.com/security/CVE-2019-1010025",
           "https://www.cve.org/CVERecord?id=CVE-2019-1010025"
         ],
-        "PublishedDate": "2019-07-15T04:15:13.537Z",
-        "LastModifiedDate": "2024-04-11T01:03:19.103Z"
+        "PublishedDate": "2019-07-15T04:15:13.537Z"
       },
       {
         "VulnerabilityID": "CVE-2019-9192",
@@ -1951,9 +1804,6 @@
         },
         "InstalledVersion": "2.36-9+deb12u4",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:a932fe3940248965ea3b18cec5b4732a7c6d7f0342505aa81b78b0664979617d"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2019-9192",
         "DataSource": {
@@ -1992,8 +1842,7 @@
           "https://support.f5.com/csp/article/K26346590?utm_source=f5support&amp%3Butm_medium=RSS",
           "https://www.cve.org/CVERecord?id=CVE-2019-9192"
         ],
-        "PublishedDate": "2019-02-26T18:29:00.34Z",
-        "LastModifiedDate": "2024-04-11T01:06:17.28Z"
+        "PublishedDate": "2019-02-26T18:29:00.34Z"
       },
       {
         "VulnerabilityID": "CVE-2024-2961",
@@ -2004,9 +1853,6 @@
         },
         "InstalledVersion": "2.36-9+deb12u4",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-2961",
         "DataSource": {
           "ID": "debian",
@@ -2037,8 +1883,7 @@
           "https://www.cve.org/CVERecord?id=CVE-2024-2961",
           "https://www.openwall.com/lists/oss-security/2024/04/17/9"
         ],
-        "PublishedDate": "2024-04-17T18:15:15.833Z",
-        "LastModifiedDate": "2024-04-17T20:08:21.887Z"
+        "PublishedDate": "2024-04-17T18:15:15.833Z"
       },
       {
         "VulnerabilityID": "CVE-2010-4756",
@@ -2049,9 +1894,6 @@
         },
         "InstalledVersion": "2.36-9+deb12u4",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2010-4756",
         "DataSource": {
@@ -2090,8 +1932,7 @@
           "https://nvd.nist.gov/vuln/detail/CVE-2010-4756",
           "https://www.cve.org/CVERecord?id=CVE-2010-4756"
         ],
-        "PublishedDate": "2011-03-02T20:00:01.037Z",
-        "LastModifiedDate": "2021-09-01T12:15:07.193Z"
+        "PublishedDate": "2011-03-02T20:00:01.037Z"
       },
       {
         "VulnerabilityID": "CVE-2018-20796",
@@ -2102,9 +1943,6 @@
         },
         "InstalledVersion": "2.36-9+deb12u4",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2018-20796",
         "DataSource": {
@@ -2146,8 +1984,7 @@
           "https://support.f5.com/csp/article/K26346590?utm_source=f5support&amp%3Butm_medium=RSS",
           "https://www.cve.org/CVERecord?id=CVE-2018-20796"
         ],
-        "PublishedDate": "2019-02-26T02:29:00.45Z",
-        "LastModifiedDate": "2023-11-07T02:56:20.983Z"
+        "PublishedDate": "2019-02-26T02:29:00.45Z"
       },
       {
         "VulnerabilityID": "CVE-2019-1010022",
@@ -2158,9 +1995,6 @@
         },
         "InstalledVersion": "2.36-9+deb12u4",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2019-1010022",
         "DataSource": {
@@ -2195,8 +2029,7 @@
           "https://ubuntu.com/security/CVE-2019-1010022",
           "https://www.cve.org/CVERecord?id=CVE-2019-1010022"
         ],
-        "PublishedDate": "2019-07-15T04:15:13.317Z",
-        "LastModifiedDate": "2024-04-11T01:03:18.89Z"
+        "PublishedDate": "2019-07-15T04:15:13.317Z"
       },
       {
         "VulnerabilityID": "CVE-2019-1010023",
@@ -2207,9 +2040,6 @@
         },
         "InstalledVersion": "2.36-9+deb12u4",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2019-1010023",
         "DataSource": {
@@ -2247,8 +2077,7 @@
           "https://ubuntu.com/security/CVE-2019-1010023",
           "https://www.cve.org/CVERecord?id=CVE-2019-1010023"
         ],
-        "PublishedDate": "2019-07-15T04:15:13.397Z",
-        "LastModifiedDate": "2024-04-11T01:03:18.97Z"
+        "PublishedDate": "2019-07-15T04:15:13.397Z"
       },
       {
         "VulnerabilityID": "CVE-2019-1010024",
@@ -2259,9 +2088,6 @@
         },
         "InstalledVersion": "2.36-9+deb12u4",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2019-1010024",
         "DataSource": {
@@ -2303,8 +2129,7 @@
           "https://ubuntu.com/security/CVE-2019-1010024",
           "https://www.cve.org/CVERecord?id=CVE-2019-1010024"
         ],
-        "PublishedDate": "2019-07-15T04:15:13.473Z",
-        "LastModifiedDate": "2024-04-11T01:03:19.04Z"
+        "PublishedDate": "2019-07-15T04:15:13.473Z"
       },
       {
         "VulnerabilityID": "CVE-2019-1010025",
@@ -2315,9 +2140,6 @@
         },
         "InstalledVersion": "2.36-9+deb12u4",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2019-1010025",
         "DataSource": {
@@ -2358,8 +2180,7 @@
           "https://ubuntu.com/security/CVE-2019-1010025",
           "https://www.cve.org/CVERecord?id=CVE-2019-1010025"
         ],
-        "PublishedDate": "2019-07-15T04:15:13.537Z",
-        "LastModifiedDate": "2024-04-11T01:03:19.103Z"
+        "PublishedDate": "2019-07-15T04:15:13.537Z"
       },
       {
         "VulnerabilityID": "CVE-2019-9192",
@@ -2370,9 +2191,6 @@
         },
         "InstalledVersion": "2.36-9+deb12u4",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2019-9192",
         "DataSource": {
@@ -2411,8 +2229,7 @@
           "https://support.f5.com/csp/article/K26346590?utm_source=f5support&amp%3Butm_medium=RSS",
           "https://www.cve.org/CVERecord?id=CVE-2019-9192"
         ],
-        "PublishedDate": "2019-02-26T18:29:00.34Z",
-        "LastModifiedDate": "2024-04-11T01:06:17.28Z"
+        "PublishedDate": "2019-02-26T18:29:00.34Z"
       },
       {
         "VulnerabilityID": "CVE-2023-4039",
@@ -2423,9 +2240,6 @@
         },
         "InstalledVersion": "12.2.0-14",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "SeveritySource": "nvd",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-4039",
         "DataSource": {
@@ -2465,8 +2279,7 @@
           "https://rtx.meta.security/mitigation/2023/09/12/CVE-2023-4039.html",
           "https://www.cve.org/CVERecord?id=CVE-2023-4039"
         ],
-        "PublishedDate": "2023-09-13T09:15:15.69Z",
-        "LastModifiedDate": "2024-02-19T23:15:07.68Z"
+        "PublishedDate": "2023-09-13T09:15:15.69Z"
       },
       {
         "VulnerabilityID": "CVE-2022-27943",
@@ -2477,9 +2290,6 @@
         },
         "InstalledVersion": "12.2.0-14",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2022-27943",
         "DataSource": {
@@ -2524,8 +2334,7 @@
           "https://sourceware.org/bugzilla/show_bug.cgi?id=28995",
           "https://www.cve.org/CVERecord?id=CVE-2022-27943"
         ],
-        "PublishedDate": "2022-03-26T13:15:07.9Z",
-        "LastModifiedDate": "2023-11-07T03:45:32.64Z"
+        "PublishedDate": "2022-03-26T13:15:07.9Z"
       },
       {
         "VulnerabilityID": "CVE-2024-2236",
@@ -2536,9 +2345,6 @@
         },
         "InstalledVersion": "1.10.1-3",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-2236",
         "DataSource": {
           "ID": "debian",
@@ -2569,8 +2375,7 @@
           "https://nvd.nist.gov/vuln/detail/CVE-2024-2236",
           "https://www.cve.org/CVERecord?id=CVE-2024-2236"
         ],
-        "PublishedDate": "2024-03-06T22:15:57.977Z",
-        "LastModifiedDate": "2024-03-07T13:52:27.11Z"
+        "PublishedDate": "2024-03-06T22:15:57.977Z"
       },
       {
         "VulnerabilityID": "CVE-2018-6829",
@@ -2581,9 +2386,6 @@
         },
         "InstalledVersion": "1.10.1-3",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2018-6829",
         "DataSource": {
@@ -2623,8 +2425,7 @@
           "https://www.cve.org/CVERecord?id=CVE-2018-6829",
           "https://www.oracle.com/security-alerts/cpujan2020.html"
         ],
-        "PublishedDate": "2018-02-07T23:29:01.703Z",
-        "LastModifiedDate": "2020-01-15T20:15:18.557Z"
+        "PublishedDate": "2018-02-07T23:29:01.703Z"
       },
       {
         "VulnerabilityID": "CVE-2024-28834",
@@ -2635,9 +2436,6 @@
         },
         "InstalledVersion": "3.7.9-2+deb12u2",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-28834",
         "DataSource": {
           "ID": "debian",
@@ -2681,8 +2479,7 @@
           "https://www.cve.org/CVERecord?id=CVE-2024-28834",
           "https://www.gnutls.org/security-new.html#GNUTLS-SA-2023-12-04"
         ],
-        "PublishedDate": "2024-03-21T14:15:07.547Z",
-        "LastModifiedDate": "2024-04-18T05:15:48.167Z"
+        "PublishedDate": "2024-03-21T14:15:07.547Z"
       },
       {
         "VulnerabilityID": "CVE-2024-28835",
@@ -2693,9 +2490,6 @@
         },
         "InstalledVersion": "3.7.9-2+deb12u2",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-28835",
         "DataSource": {
           "ID": "debian",
@@ -2736,8 +2530,7 @@
           "https://www.cve.org/CVERecord?id=CVE-2024-28835",
           "https://www.gnutls.org/security-new.html#GNUTLS-SA-2024-01-23"
         ],
-        "PublishedDate": "2024-03-21T06:15:45.113Z",
-        "LastModifiedDate": "2024-04-18T05:15:48.263Z"
+        "PublishedDate": "2024-03-21T06:15:45.113Z"
       },
       {
         "VulnerabilityID": "CVE-2011-3389",
@@ -2748,9 +2541,6 @@
         },
         "InstalledVersion": "3.7.9-2+deb12u2",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2011-3389",
         "DataSource": {
@@ -2880,8 +2670,7 @@
           "https://ubuntu.com/security/notices/USN-1263-1",
           "https://www.cve.org/CVERecord?id=CVE-2011-3389"
         ],
-        "PublishedDate": "2011-09-06T19:55:03.197Z",
-        "LastModifiedDate": "2022-11-29T15:56:08.637Z"
+        "PublishedDate": "2011-09-06T19:55:03.197Z"
       },
       {
         "VulnerabilityID": "CVE-2024-26462",
@@ -2892,9 +2681,6 @@
         },
         "InstalledVersion": "1.20.1-2+deb12u1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:a51d8c86be3d568d68449068aced73afccc6ebfaee253fc0833108b479aad366"
-        },
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-26462",
         "DataSource": {
           "ID": "debian",
@@ -2921,8 +2707,7 @@
           "https://nvd.nist.gov/vuln/detail/CVE-2024-26462",
           "https://www.cve.org/CVERecord?id=CVE-2024-26462"
         ],
-        "PublishedDate": "2024-02-29T01:44:18.857Z",
-        "LastModifiedDate": "2024-02-29T13:49:29.39Z"
+        "PublishedDate": "2024-02-29T01:44:18.857Z"
       },
       {
         "VulnerabilityID": "CVE-2024-26458",
@@ -2933,9 +2718,6 @@
         },
         "InstalledVersion": "1.20.1-2+deb12u1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:a51d8c86be3d568d68449068aced73afccc6ebfaee253fc0833108b479aad366"
-        },
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-26458",
         "DataSource": {
           "ID": "debian",
@@ -2962,8 +2744,7 @@
           "https://nvd.nist.gov/vuln/detail/CVE-2024-26458",
           "https://www.cve.org/CVERecord?id=CVE-2024-26458"
         ],
-        "PublishedDate": "2024-02-29T01:44:18.78Z",
-        "LastModifiedDate": "2024-02-29T13:49:29.39Z"
+        "PublishedDate": "2024-02-29T01:44:18.78Z"
       },
       {
         "VulnerabilityID": "CVE-2024-26461",
@@ -2974,9 +2755,6 @@
         },
         "InstalledVersion": "1.20.1-2+deb12u1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:a51d8c86be3d568d68449068aced73afccc6ebfaee253fc0833108b479aad366"
-        },
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-26461",
         "DataSource": {
           "ID": "debian",
@@ -3003,8 +2781,7 @@
           "https://nvd.nist.gov/vuln/detail/CVE-2024-26461",
           "https://www.cve.org/CVERecord?id=CVE-2024-26461"
         ],
-        "PublishedDate": "2024-02-29T01:44:18.82Z",
-        "LastModifiedDate": "2024-02-29T13:49:29.39Z"
+        "PublishedDate": "2024-02-29T01:44:18.82Z"
       },
       {
         "VulnerabilityID": "CVE-2018-5709",
@@ -3015,9 +2792,6 @@
         },
         "InstalledVersion": "1.20.1-2+deb12u1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:a51d8c86be3d568d68449068aced73afccc6ebfaee253fc0833108b479aad366"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2018-5709",
         "DataSource": {
@@ -3055,8 +2829,7 @@
           "https://nvd.nist.gov/vuln/detail/CVE-2018-5709",
           "https://www.cve.org/CVERecord?id=CVE-2018-5709"
         ],
-        "PublishedDate": "2018-01-16T09:29:00.5Z",
-        "LastModifiedDate": "2023-11-07T02:58:49.07Z"
+        "PublishedDate": "2018-01-16T09:29:00.5Z"
       },
       {
         "VulnerabilityID": "CVE-2024-26462",
@@ -3067,9 +2840,6 @@
         },
         "InstalledVersion": "1.20.1-2+deb12u1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:a51d8c86be3d568d68449068aced73afccc6ebfaee253fc0833108b479aad366"
-        },
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-26462",
         "DataSource": {
           "ID": "debian",
@@ -3096,8 +2866,7 @@
           "https://nvd.nist.gov/vuln/detail/CVE-2024-26462",
           "https://www.cve.org/CVERecord?id=CVE-2024-26462"
         ],
-        "PublishedDate": "2024-02-29T01:44:18.857Z",
-        "LastModifiedDate": "2024-02-29T13:49:29.39Z"
+        "PublishedDate": "2024-02-29T01:44:18.857Z"
       },
       {
         "VulnerabilityID": "CVE-2024-26458",
@@ -3108,9 +2877,6 @@
         },
         "InstalledVersion": "1.20.1-2+deb12u1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:a51d8c86be3d568d68449068aced73afccc6ebfaee253fc0833108b479aad366"
-        },
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-26458",
         "DataSource": {
           "ID": "debian",
@@ -3137,8 +2903,7 @@
           "https://nvd.nist.gov/vuln/detail/CVE-2024-26458",
           "https://www.cve.org/CVERecord?id=CVE-2024-26458"
         ],
-        "PublishedDate": "2024-02-29T01:44:18.78Z",
-        "LastModifiedDate": "2024-02-29T13:49:29.39Z"
+        "PublishedDate": "2024-02-29T01:44:18.78Z"
       },
       {
         "VulnerabilityID": "CVE-2024-26461",
@@ -3149,9 +2914,6 @@
         },
         "InstalledVersion": "1.20.1-2+deb12u1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:a51d8c86be3d568d68449068aced73afccc6ebfaee253fc0833108b479aad366"
-        },
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-26461",
         "DataSource": {
           "ID": "debian",
@@ -3178,8 +2940,7 @@
           "https://nvd.nist.gov/vuln/detail/CVE-2024-26461",
           "https://www.cve.org/CVERecord?id=CVE-2024-26461"
         ],
-        "PublishedDate": "2024-02-29T01:44:18.82Z",
-        "LastModifiedDate": "2024-02-29T13:49:29.39Z"
+        "PublishedDate": "2024-02-29T01:44:18.82Z"
       },
       {
         "VulnerabilityID": "CVE-2018-5709",
@@ -3190,9 +2951,6 @@
         },
         "InstalledVersion": "1.20.1-2+deb12u1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:a51d8c86be3d568d68449068aced73afccc6ebfaee253fc0833108b479aad366"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2018-5709",
         "DataSource": {
@@ -3230,8 +2988,7 @@
           "https://nvd.nist.gov/vuln/detail/CVE-2018-5709",
           "https://www.cve.org/CVERecord?id=CVE-2018-5709"
         ],
-        "PublishedDate": "2018-01-16T09:29:00.5Z",
-        "LastModifiedDate": "2023-11-07T02:58:49.07Z"
+        "PublishedDate": "2018-01-16T09:29:00.5Z"
       },
       {
         "VulnerabilityID": "CVE-2024-26462",
@@ -3242,9 +2999,6 @@
         },
         "InstalledVersion": "1.20.1-2+deb12u1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:a51d8c86be3d568d68449068aced73afccc6ebfaee253fc0833108b479aad366"
-        },
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-26462",
         "DataSource": {
           "ID": "debian",
@@ -3271,8 +3025,7 @@
           "https://nvd.nist.gov/vuln/detail/CVE-2024-26462",
           "https://www.cve.org/CVERecord?id=CVE-2024-26462"
         ],
-        "PublishedDate": "2024-02-29T01:44:18.857Z",
-        "LastModifiedDate": "2024-02-29T13:49:29.39Z"
+        "PublishedDate": "2024-02-29T01:44:18.857Z"
       },
       {
         "VulnerabilityID": "CVE-2024-26458",
@@ -3283,9 +3036,6 @@
         },
         "InstalledVersion": "1.20.1-2+deb12u1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:a51d8c86be3d568d68449068aced73afccc6ebfaee253fc0833108b479aad366"
-        },
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-26458",
         "DataSource": {
           "ID": "debian",
@@ -3312,8 +3062,7 @@
           "https://nvd.nist.gov/vuln/detail/CVE-2024-26458",
           "https://www.cve.org/CVERecord?id=CVE-2024-26458"
         ],
-        "PublishedDate": "2024-02-29T01:44:18.78Z",
-        "LastModifiedDate": "2024-02-29T13:49:29.39Z"
+        "PublishedDate": "2024-02-29T01:44:18.78Z"
       },
       {
         "VulnerabilityID": "CVE-2024-26461",
@@ -3324,9 +3073,6 @@
         },
         "InstalledVersion": "1.20.1-2+deb12u1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:a51d8c86be3d568d68449068aced73afccc6ebfaee253fc0833108b479aad366"
-        },
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-26461",
         "DataSource": {
           "ID": "debian",
@@ -3353,8 +3099,7 @@
           "https://nvd.nist.gov/vuln/detail/CVE-2024-26461",
           "https://www.cve.org/CVERecord?id=CVE-2024-26461"
         ],
-        "PublishedDate": "2024-02-29T01:44:18.82Z",
-        "LastModifiedDate": "2024-02-29T13:49:29.39Z"
+        "PublishedDate": "2024-02-29T01:44:18.82Z"
       },
       {
         "VulnerabilityID": "CVE-2018-5709",
@@ -3365,9 +3110,6 @@
         },
         "InstalledVersion": "1.20.1-2+deb12u1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:a51d8c86be3d568d68449068aced73afccc6ebfaee253fc0833108b479aad366"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2018-5709",
         "DataSource": {
@@ -3405,8 +3147,7 @@
           "https://nvd.nist.gov/vuln/detail/CVE-2018-5709",
           "https://www.cve.org/CVERecord?id=CVE-2018-5709"
         ],
-        "PublishedDate": "2018-01-16T09:29:00.5Z",
-        "LastModifiedDate": "2023-11-07T02:58:49.07Z"
+        "PublishedDate": "2018-01-16T09:29:00.5Z"
       },
       {
         "VulnerabilityID": "CVE-2024-26462",
@@ -3417,9 +3158,6 @@
         },
         "InstalledVersion": "1.20.1-2+deb12u1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:a51d8c86be3d568d68449068aced73afccc6ebfaee253fc0833108b479aad366"
-        },
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-26462",
         "DataSource": {
           "ID": "debian",
@@ -3446,8 +3184,7 @@
           "https://nvd.nist.gov/vuln/detail/CVE-2024-26462",
           "https://www.cve.org/CVERecord?id=CVE-2024-26462"
         ],
-        "PublishedDate": "2024-02-29T01:44:18.857Z",
-        "LastModifiedDate": "2024-02-29T13:49:29.39Z"
+        "PublishedDate": "2024-02-29T01:44:18.857Z"
       },
       {
         "VulnerabilityID": "CVE-2024-26458",
@@ -3458,9 +3195,6 @@
         },
         "InstalledVersion": "1.20.1-2+deb12u1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:a51d8c86be3d568d68449068aced73afccc6ebfaee253fc0833108b479aad366"
-        },
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-26458",
         "DataSource": {
           "ID": "debian",
@@ -3487,8 +3221,7 @@
           "https://nvd.nist.gov/vuln/detail/CVE-2024-26458",
           "https://www.cve.org/CVERecord?id=CVE-2024-26458"
         ],
-        "PublishedDate": "2024-02-29T01:44:18.78Z",
-        "LastModifiedDate": "2024-02-29T13:49:29.39Z"
+        "PublishedDate": "2024-02-29T01:44:18.78Z"
       },
       {
         "VulnerabilityID": "CVE-2024-26461",
@@ -3499,9 +3232,6 @@
         },
         "InstalledVersion": "1.20.1-2+deb12u1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:a51d8c86be3d568d68449068aced73afccc6ebfaee253fc0833108b479aad366"
-        },
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-26461",
         "DataSource": {
           "ID": "debian",
@@ -3528,8 +3258,7 @@
           "https://nvd.nist.gov/vuln/detail/CVE-2024-26461",
           "https://www.cve.org/CVERecord?id=CVE-2024-26461"
         ],
-        "PublishedDate": "2024-02-29T01:44:18.82Z",
-        "LastModifiedDate": "2024-02-29T13:49:29.39Z"
+        "PublishedDate": "2024-02-29T01:44:18.82Z"
       },
       {
         "VulnerabilityID": "CVE-2018-5709",
@@ -3540,9 +3269,6 @@
         },
         "InstalledVersion": "1.20.1-2+deb12u1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:a51d8c86be3d568d68449068aced73afccc6ebfaee253fc0833108b479aad366"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2018-5709",
         "DataSource": {
@@ -3580,8 +3306,7 @@
           "https://nvd.nist.gov/vuln/detail/CVE-2018-5709",
           "https://www.cve.org/CVERecord?id=CVE-2018-5709"
         ],
-        "PublishedDate": "2018-01-16T09:29:00.5Z",
-        "LastModifiedDate": "2023-11-07T02:58:49.07Z"
+        "PublishedDate": "2018-01-16T09:29:00.5Z"
       },
       {
         "VulnerabilityID": "CVE-2023-2953",
@@ -3592,9 +3317,6 @@
         },
         "InstalledVersion": "2.5.13+dfsg-5",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:7e5b0d46002416716318e9fa75f91635bb1fcf4f9d2f24ba88938379769212b1"
-        },
         "SeveritySource": "nvd",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-2953",
         "DataSource": {
@@ -3645,8 +3367,7 @@
           "https://ubuntu.com/security/notices/USN-6616-1",
           "https://www.cve.org/CVERecord?id=CVE-2023-2953"
         ],
-        "PublishedDate": "2023-05-30T22:15:10.613Z",
-        "LastModifiedDate": "2023-08-02T16:46:03.663Z"
+        "PublishedDate": "2023-05-30T22:15:10.613Z"
       },
       {
         "VulnerabilityID": "CVE-2015-3276",
@@ -3657,9 +3378,6 @@
         },
         "InstalledVersion": "2.5.13+dfsg-5",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:7e5b0d46002416716318e9fa75f91635bb1fcf4f9d2f24ba88938379769212b1"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2015-3276",
         "DataSource": {
@@ -3701,8 +3419,7 @@
           "https://nvd.nist.gov/vuln/detail/CVE-2015-3276",
           "https://www.cve.org/CVERecord?id=CVE-2015-3276"
         ],
-        "PublishedDate": "2015-12-07T20:59:03.023Z",
-        "LastModifiedDate": "2023-04-28T18:28:40.45Z"
+        "PublishedDate": "2015-12-07T20:59:03.023Z"
       },
       {
         "VulnerabilityID": "CVE-2017-14159",
@@ -3713,9 +3430,6 @@
         },
         "InstalledVersion": "2.5.13+dfsg-5",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:7e5b0d46002416716318e9fa75f91635bb1fcf4f9d2f24ba88938379769212b1"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2017-14159",
         "DataSource": {
@@ -3753,8 +3467,7 @@
           "https://www.cve.org/CVERecord?id=CVE-2017-14159",
           "https://www.oracle.com/security-alerts/cpuapr2022.html"
         ],
-        "PublishedDate": "2017-09-05T18:29:00.133Z",
-        "LastModifiedDate": "2022-06-13T19:18:13.177Z"
+        "PublishedDate": "2017-09-05T18:29:00.133Z"
       },
       {
         "VulnerabilityID": "CVE-2017-17740",
@@ -3765,9 +3478,6 @@
         },
         "InstalledVersion": "2.5.13+dfsg-5",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:7e5b0d46002416716318e9fa75f91635bb1fcf4f9d2f24ba88938379769212b1"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2017-17740",
         "DataSource": {
@@ -3808,8 +3518,7 @@
           "https://www.cve.org/CVERecord?id=CVE-2017-17740",
           "https://www.oracle.com/security-alerts/cpuapr2022.html"
         ],
-        "PublishedDate": "2017-12-18T06:29:00.397Z",
-        "LastModifiedDate": "2022-06-13T19:10:10.043Z"
+        "PublishedDate": "2017-12-18T06:29:00.397Z"
       },
       {
         "VulnerabilityID": "CVE-2020-15719",
@@ -3820,9 +3529,6 @@
         },
         "InstalledVersion": "2.5.13+dfsg-5",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:7e5b0d46002416716318e9fa75f91635bb1fcf4f9d2f24ba88938379769212b1"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2020-15719",
         "DataSource": {
@@ -3870,8 +3576,7 @@
           "https://www.cve.org/CVERecord?id=CVE-2020-15719",
           "https://www.oracle.com/security-alerts/cpuapr2022.html"
         ],
-        "PublishedDate": "2020-07-14T14:15:17.667Z",
-        "LastModifiedDate": "2022-05-12T15:01:09.437Z"
+        "PublishedDate": "2020-07-14T14:15:17.667Z"
       },
       {
         "VulnerabilityID": "CVE-2024-31852",
@@ -3882,9 +3587,6 @@
         },
         "InstalledVersion": "1:16.0.6-15~deb12u1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:a51d8c86be3d568d68449068aced73afccc6ebfaee253fc0833108b479aad366"
-        },
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-31852",
         "DataSource": {
           "ID": "debian",
@@ -3912,8 +3614,7 @@
           "https://nvd.nist.gov/vuln/detail/CVE-2024-31852",
           "https://www.cve.org/CVERecord?id=CVE-2024-31852"
         ],
-        "PublishedDate": "2024-04-05T15:15:08.27Z",
-        "LastModifiedDate": "2024-04-08T18:49:25.863Z"
+        "PublishedDate": "2024-04-05T15:15:08.27Z"
       },
       {
         "VulnerabilityID": "CVE-2022-0563",
@@ -3924,9 +3625,6 @@
         },
         "InstalledVersion": "2.38.1-5+deb12u1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2022-0563",
         "DataSource": {
@@ -3970,8 +3668,7 @@
           "https://security.netapp.com/advisory/ntap-20220331-0002/",
           "https://www.cve.org/CVERecord?id=CVE-2022-0563"
         ],
-        "PublishedDate": "2022-02-21T19:15:08.393Z",
-        "LastModifiedDate": "2024-01-07T09:15:08.713Z"
+        "PublishedDate": "2022-02-21T19:15:08.393Z"
       },
       {
         "VulnerabilityID": "CVE-2023-50495",
@@ -3982,9 +3679,6 @@
         },
         "InstalledVersion": "6.4-4",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:7e5b0d46002416716318e9fa75f91635bb1fcf4f9d2f24ba88938379769212b1"
-        },
         "SeveritySource": "nvd",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-50495",
         "DataSource": {
@@ -4021,8 +3715,7 @@
           "https://ubuntu.com/security/notices/USN-6684-1",
           "https://www.cve.org/CVERecord?id=CVE-2023-50495"
         ],
-        "PublishedDate": "2023-12-12T15:15:07.867Z",
-        "LastModifiedDate": "2024-01-31T03:15:08.49Z"
+        "PublishedDate": "2023-12-12T15:15:07.867Z"
       },
       {
         "VulnerabilityID": "CVE-2023-45918",
@@ -4033,9 +3726,6 @@
         },
         "InstalledVersion": "6.4-4",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:7e5b0d46002416716318e9fa75f91635bb1fcf4f9d2f24ba88938379769212b1"
-        },
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-45918",
         "DataSource": {
           "ID": "debian",
@@ -4054,8 +3744,7 @@
           "https://security.netapp.com/advisory/ntap-20240315-0006/",
           "https://www.cve.org/CVERecord?id=CVE-2023-45918"
         ],
-        "PublishedDate": "2024-02-16T22:15:07.88Z",
-        "LastModifiedDate": "2024-03-15T11:15:08.51Z"
+        "PublishedDate": "2024-02-16T22:15:07.88Z"
       },
       {
         "VulnerabilityID": "CVE-2024-22365",
@@ -4066,9 +3755,6 @@
         },
         "InstalledVersion": "1.5.2-6+deb12u1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "SeveritySource": "nvd",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-22365",
         "DataSource": {
@@ -4109,8 +3795,7 @@
           "https://www.cve.org/CVERecord?id=CVE-2024-22365",
           "https://www.openwall.com/lists/oss-security/2024/01/18/3"
         ],
-        "PublishedDate": "2024-02-06T08:15:52.203Z",
-        "LastModifiedDate": "2024-02-14T00:27:40.143Z"
+        "PublishedDate": "2024-02-06T08:15:52.203Z"
       },
       {
         "VulnerabilityID": "CVE-2024-22365",
@@ -4121,9 +3806,6 @@
         },
         "InstalledVersion": "1.5.2-6+deb12u1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "SeveritySource": "nvd",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-22365",
         "DataSource": {
@@ -4164,8 +3846,7 @@
           "https://www.cve.org/CVERecord?id=CVE-2024-22365",
           "https://www.openwall.com/lists/oss-security/2024/01/18/3"
         ],
-        "PublishedDate": "2024-02-06T08:15:52.203Z",
-        "LastModifiedDate": "2024-02-14T00:27:40.143Z"
+        "PublishedDate": "2024-02-06T08:15:52.203Z"
       },
       {
         "VulnerabilityID": "CVE-2024-22365",
@@ -4176,9 +3857,6 @@
         },
         "InstalledVersion": "1.5.2-6+deb12u1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "SeveritySource": "nvd",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-22365",
         "DataSource": {
@@ -4219,8 +3897,7 @@
           "https://www.cve.org/CVERecord?id=CVE-2024-22365",
           "https://www.openwall.com/lists/oss-security/2024/01/18/3"
         ],
-        "PublishedDate": "2024-02-06T08:15:52.203Z",
-        "LastModifiedDate": "2024-02-14T00:27:40.143Z"
+        "PublishedDate": "2024-02-06T08:15:52.203Z"
       },
       {
         "VulnerabilityID": "CVE-2024-22365",
@@ -4231,9 +3908,6 @@
         },
         "InstalledVersion": "1.5.2-6+deb12u1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "SeveritySource": "nvd",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-22365",
         "DataSource": {
@@ -4274,8 +3948,7 @@
           "https://www.cve.org/CVERecord?id=CVE-2024-22365",
           "https://www.openwall.com/lists/oss-security/2024/01/18/3"
         ],
-        "PublishedDate": "2024-02-06T08:15:52.203Z",
-        "LastModifiedDate": "2024-02-14T00:27:40.143Z"
+        "PublishedDate": "2024-02-06T08:15:52.203Z"
       },
       {
         "VulnerabilityID": "CVE-2023-31484",
@@ -4286,9 +3959,6 @@
         },
         "InstalledVersion": "5.36.0-7+deb12u1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:a51d8c86be3d568d68449068aced73afccc6ebfaee253fc0833108b479aad366"
-        },
         "SeveritySource": "nvd",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-31484",
         "DataSource": {
@@ -4344,8 +4014,7 @@
           "https://www.cve.org/CVERecord?id=CVE-2023-31484",
           "https://www.openwall.com/lists/oss-security/2023/04/18/14"
         ],
-        "PublishedDate": "2023-04-29T00:15:09Z",
-        "LastModifiedDate": "2023-11-07T04:14:19.41Z"
+        "PublishedDate": "2023-04-29T00:15:09Z"
       },
       {
         "VulnerabilityID": "CVE-2011-4116",
@@ -4356,9 +4025,6 @@
         },
         "InstalledVersion": "5.36.0-7+deb12u1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:a51d8c86be3d568d68449068aced73afccc6ebfaee253fc0833108b479aad366"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2011-4116",
         "DataSource": {
@@ -4399,8 +4065,7 @@
           "https://seclists.org/oss-sec/2011/q4/238",
           "https://www.cve.org/CVERecord?id=CVE-2011-4116"
         ],
-        "PublishedDate": "2020-01-31T18:15:11.343Z",
-        "LastModifiedDate": "2020-02-05T22:10:26.29Z"
+        "PublishedDate": "2020-01-31T18:15:11.343Z"
       },
       {
         "VulnerabilityID": "CVE-2023-31486",
@@ -4411,9 +4076,6 @@
         },
         "InstalledVersion": "5.36.0-7+deb12u1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:a51d8c86be3d568d68449068aced73afccc6ebfaee253fc0833108b479aad366"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-31486",
         "DataSource": {
@@ -4467,8 +4129,7 @@
           "https://www.openwall.com/lists/oss-security/2023/05/03/4",
           "https://www.reddit.com/r/perl/comments/111tadi/psa_httptiny_disabled_ssl_verification_by_default/"
         ],
-        "PublishedDate": "2023-04-29T00:15:09.083Z",
-        "LastModifiedDate": "2023-06-21T18:19:52.937Z"
+        "PublishedDate": "2023-04-29T00:15:09.083Z"
       },
       {
         "VulnerabilityID": "CVE-2022-0563",
@@ -4479,9 +4140,6 @@
         },
         "InstalledVersion": "2.38.1-5+deb12u1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2022-0563",
         "DataSource": {
@@ -4525,8 +4183,7 @@
           "https://security.netapp.com/advisory/ntap-20220331-0002/",
           "https://www.cve.org/CVERecord?id=CVE-2022-0563"
         ],
-        "PublishedDate": "2022-02-21T19:15:08.393Z",
-        "LastModifiedDate": "2024-01-07T09:15:08.713Z"
+        "PublishedDate": "2022-02-21T19:15:08.393Z"
       },
       {
         "VulnerabilityID": "CVE-2023-7104",
@@ -4537,9 +4194,6 @@
         },
         "InstalledVersion": "3.40.1-2",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:7e5b0d46002416716318e9fa75f91635bb1fcf4f9d2f24ba88938379769212b1"
-        },
         "SeveritySource": "nvd",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-7104",
         "DataSource": {
@@ -4601,8 +4255,7 @@
           "https://vuldb.com/?id.248999",
           "https://www.cve.org/CVERecord?id=CVE-2023-7104"
         ],
-        "PublishedDate": "2023-12-29T10:15:13.89Z",
-        "LastModifiedDate": "2024-04-11T01:23:34.91Z"
+        "PublishedDate": "2023-12-29T10:15:13.89Z"
       },
       {
         "VulnerabilityID": "CVE-2024-0232",
@@ -4613,9 +4266,6 @@
         },
         "InstalledVersion": "3.40.1-2",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:7e5b0d46002416716318e9fa75f91635bb1fcf4f9d2f24ba88938379769212b1"
-        },
         "SeveritySource": "nvd",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-0232",
         "DataSource": {
@@ -4656,8 +4306,7 @@
           "https://security.netapp.com/advisory/ntap-20240315-0007/",
           "https://www.cve.org/CVERecord?id=CVE-2024-0232"
         ],
-        "PublishedDate": "2024-01-16T14:15:48.327Z",
-        "LastModifiedDate": "2024-03-15T11:15:08.56Z"
+        "PublishedDate": "2024-01-16T14:15:48.327Z"
       },
       {
         "VulnerabilityID": "CVE-2021-45346",
@@ -4668,9 +4317,6 @@
         },
         "InstalledVersion": "3.40.1-2",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:7e5b0d46002416716318e9fa75f91635bb1fcf4f9d2f24ba88938379769212b1"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2021-45346",
         "DataSource": {
@@ -4716,8 +4362,7 @@
           "https://www.cve.org/CVERecord?id=CVE-2021-45346",
           "https://www.sqlite.org/cves.html#status_of_recent_sqlite_cves"
         ],
-        "PublishedDate": "2022-02-14T19:15:07.793Z",
-        "LastModifiedDate": "2024-04-11T01:13:23.817Z"
+        "PublishedDate": "2022-02-14T19:15:07.793Z"
       },
       {
         "VulnerabilityID": "CVE-2023-5678",
@@ -4728,9 +4373,6 @@
         },
         "InstalledVersion": "3.0.11-1~deb12u2",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:a51d8c86be3d568d68449068aced73afccc6ebfaee253fc0833108b479aad366"
-        },
         "SeveritySource": "nvd",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-5678",
         "DataSource": {
@@ -4785,8 +4427,7 @@
           "https://www.cve.org/CVERecord?id=CVE-2023-5678",
           "https://www.openssl.org/news/secadv/20231106.txt"
         ],
-        "PublishedDate": "2023-11-06T16:15:42.67Z",
-        "LastModifiedDate": "2023-11-30T22:15:09.723Z"
+        "PublishedDate": "2023-11-06T16:15:42.67Z"
       },
       {
         "VulnerabilityID": "CVE-2023-6129",
@@ -4797,9 +4438,6 @@
         },
         "InstalledVersion": "3.0.11-1~deb12u2",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:a51d8c86be3d568d68449068aced73afccc6ebfaee253fc0833108b479aad366"
-        },
         "SeveritySource": "nvd",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-6129",
         "DataSource": {
@@ -4840,8 +4478,7 @@
           "https://www.openssl.org/news/secadv/20240109.txt",
           "https://www.openwall.com/lists/oss-security/2024/01/09/1"
         ],
-        "PublishedDate": "2024-01-09T17:15:12.147Z",
-        "LastModifiedDate": "2024-02-16T13:15:09.91Z"
+        "PublishedDate": "2024-01-09T17:15:12.147Z"
       },
       {
         "VulnerabilityID": "CVE-2023-6237",
@@ -4852,9 +4489,6 @@
         },
         "InstalledVersion": "3.0.11-1~deb12u2",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:a51d8c86be3d568d68449068aced73afccc6ebfaee253fc0833108b479aad366"
-        },
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-6237",
         "DataSource": {
           "ID": "debian",
@@ -4893,9 +4527,6 @@
         },
         "InstalledVersion": "3.0.11-1~deb12u2",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:a51d8c86be3d568d68449068aced73afccc6ebfaee253fc0833108b479aad366"
-        },
         "SeveritySource": "nvd",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-0727",
         "DataSource": {
@@ -4948,8 +4579,7 @@
           "https://www.cve.org/CVERecord?id=CVE-2024-0727",
           "https://www.openssl.org/news/secadv/20240125.txt"
         ],
-        "PublishedDate": "2024-01-26T09:15:07.637Z",
-        "LastModifiedDate": "2024-02-08T10:15:13.91Z"
+        "PublishedDate": "2024-01-26T09:15:07.637Z"
       },
       {
         "VulnerabilityID": "CVE-2007-6755",
@@ -4960,9 +4590,6 @@
         },
         "InstalledVersion": "3.0.11-1~deb12u2",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:a51d8c86be3d568d68449068aced73afccc6ebfaee253fc0833108b479aad366"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2007-6755",
         "DataSource": {
@@ -5004,8 +4631,7 @@
           "https://www.cve.org/CVERecord?id=CVE-2007-6755",
           "https://www.schneier.com/blog/archives/2007/11/the_strange_sto.html"
         ],
-        "PublishedDate": "2013-10-11T22:55:33.58Z",
-        "LastModifiedDate": "2022-11-01T14:44:55.093Z"
+        "PublishedDate": "2013-10-11T22:55:33.58Z"
       },
       {
         "VulnerabilityID": "CVE-2010-0928",
@@ -5016,9 +4642,6 @@
         },
         "InstalledVersion": "3.0.11-1~deb12u2",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:a51d8c86be3d568d68449068aced73afccc6ebfaee253fc0833108b479aad366"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2010-0928",
         "DataSource": {
@@ -5054,8 +4677,7 @@
           "https://nvd.nist.gov/vuln/detail/CVE-2010-0928",
           "https://www.cve.org/CVERecord?id=CVE-2010-0928"
         ],
-        "PublishedDate": "2010-03-05T19:30:00.797Z",
-        "LastModifiedDate": "2023-11-07T02:05:11.413Z"
+        "PublishedDate": "2010-03-05T19:30:00.797Z"
       },
       {
         "VulnerabilityID": "CVE-2024-2511",
@@ -5066,9 +4688,6 @@
         },
         "InstalledVersion": "3.0.11-1~deb12u2",
         "Status": "fix_deferred",
-        "Layer": {
-          "DiffID": "sha256:a51d8c86be3d568d68449068aced73afccc6ebfaee253fc0833108b479aad366"
-        },
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-2511",
         "DataSource": {
           "ID": "debian",
@@ -5100,8 +4719,7 @@
           "https://www.openssl.org/news/secadv/20240408.txt",
           "https://www.openssl.org/news/vulnerabilities.html"
         ],
-        "PublishedDate": "2024-04-08T14:15:07.66Z",
-        "LastModifiedDate": "2024-04-08T18:48:40.217Z"
+        "PublishedDate": "2024-04-08T14:15:07.66Z"
       },
       {
         "VulnerabilityID": "CVE-2023-4039",
@@ -5112,9 +4730,6 @@
         },
         "InstalledVersion": "12.2.0-14",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "SeveritySource": "nvd",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-4039",
         "DataSource": {
@@ -5154,8 +4769,7 @@
           "https://rtx.meta.security/mitigation/2023/09/12/CVE-2023-4039.html",
           "https://www.cve.org/CVERecord?id=CVE-2023-4039"
         ],
-        "PublishedDate": "2023-09-13T09:15:15.69Z",
-        "LastModifiedDate": "2024-02-19T23:15:07.68Z"
+        "PublishedDate": "2023-09-13T09:15:15.69Z"
       },
       {
         "VulnerabilityID": "CVE-2022-27943",
@@ -5166,9 +4780,6 @@
         },
         "InstalledVersion": "12.2.0-14",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2022-27943",
         "DataSource": {
@@ -5213,8 +4824,7 @@
           "https://sourceware.org/bugzilla/show_bug.cgi?id=28995",
           "https://www.cve.org/CVERecord?id=CVE-2022-27943"
         ],
-        "PublishedDate": "2022-03-26T13:15:07.9Z",
-        "LastModifiedDate": "2023-11-07T03:45:32.64Z"
+        "PublishedDate": "2022-03-26T13:15:07.9Z"
       },
       {
         "VulnerabilityID": "CVE-2023-50387",
@@ -5225,9 +4835,6 @@
         },
         "InstalledVersion": "252.22-1~deb12u1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "SeveritySource": "nvd",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-50387",
         "DataSource": {
@@ -5318,8 +4925,7 @@
           "https://www.securityweek.com/keytrap-dns-attack-could-disable-large-parts-of-internet-researchers/",
           "https://www.theregister.com/2024/02/13/dnssec_vulnerability_internet/"
         ],
-        "PublishedDate": "2024-02-14T16:15:45.3Z",
-        "LastModifiedDate": "2024-03-07T17:15:11.587Z"
+        "PublishedDate": "2024-02-14T16:15:45.3Z"
       },
       {
         "VulnerabilityID": "CVE-2023-50868",
@@ -5330,9 +4936,6 @@
         },
         "InstalledVersion": "252.22-1~deb12u1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-50868",
         "DataSource": {
           "ID": "debian",
@@ -5408,8 +5011,7 @@
           "https://www.isc.org/blogs/2024-bind-security-release/",
           "https://www.knot-resolver.cz/2024-02-13-knot-resolver-5.7.1.html"
         ],
-        "PublishedDate": "2024-02-14T16:15:45.377Z",
-        "LastModifiedDate": "2024-03-07T17:15:11.817Z"
+        "PublishedDate": "2024-02-14T16:15:45.377Z"
       },
       {
         "VulnerabilityID": "CVE-2013-4392",
@@ -5420,9 +5022,6 @@
         },
         "InstalledVersion": "252.22-1~deb12u1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2013-4392",
         "DataSource": {
@@ -5459,8 +5058,7 @@
           "https://nvd.nist.gov/vuln/detail/CVE-2013-4392",
           "https://www.cve.org/CVERecord?id=CVE-2013-4392"
         ],
-        "PublishedDate": "2013-10-28T22:55:03.773Z",
-        "LastModifiedDate": "2022-01-31T17:49:14.387Z"
+        "PublishedDate": "2013-10-28T22:55:03.773Z"
       },
       {
         "VulnerabilityID": "CVE-2023-31437",
@@ -5471,9 +5069,6 @@
         },
         "InstalledVersion": "252.22-1~deb12u1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-31437",
         "DataSource": {
@@ -5502,8 +5097,7 @@
           "https://github.com/kastel-security/Journald/blob/main/journald-publication.pdf",
           "https://github.com/systemd/systemd/releases"
         ],
-        "PublishedDate": "2023-06-13T17:15:14.657Z",
-        "LastModifiedDate": "2024-04-11T01:20:11.607Z"
+        "PublishedDate": "2023-06-13T17:15:14.657Z"
       },
       {
         "VulnerabilityID": "CVE-2023-31438",
@@ -5514,9 +5108,6 @@
         },
         "InstalledVersion": "252.22-1~deb12u1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-31438",
         "DataSource": {
@@ -5546,8 +5137,7 @@
           "https://github.com/systemd/systemd/pull/28886",
           "https://github.com/systemd/systemd/releases"
         ],
-        "PublishedDate": "2023-06-13T17:15:14.707Z",
-        "LastModifiedDate": "2024-04-11T01:20:11.66Z"
+        "PublishedDate": "2023-06-13T17:15:14.707Z"
       },
       {
         "VulnerabilityID": "CVE-2023-31439",
@@ -5558,9 +5148,6 @@
         },
         "InstalledVersion": "252.22-1~deb12u1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-31439",
         "DataSource": {
@@ -5590,8 +5177,7 @@
           "https://github.com/systemd/systemd/pull/28885",
           "https://github.com/systemd/systemd/releases"
         ],
-        "PublishedDate": "2023-06-13T17:15:14.753Z",
-        "LastModifiedDate": "2024-04-11T01:20:11.72Z"
+        "PublishedDate": "2023-06-13T17:15:14.753Z"
       },
       {
         "VulnerabilityID": "CVE-2023-50495",
@@ -5602,9 +5188,6 @@
         },
         "InstalledVersion": "6.4-4",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "SeveritySource": "nvd",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-50495",
         "DataSource": {
@@ -5641,8 +5224,7 @@
           "https://ubuntu.com/security/notices/USN-6684-1",
           "https://www.cve.org/CVERecord?id=CVE-2023-50495"
         ],
-        "PublishedDate": "2023-12-12T15:15:07.867Z",
-        "LastModifiedDate": "2024-01-31T03:15:08.49Z"
+        "PublishedDate": "2023-12-12T15:15:07.867Z"
       },
       {
         "VulnerabilityID": "CVE-2023-45918",
@@ -5653,9 +5235,6 @@
         },
         "InstalledVersion": "6.4-4",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-45918",
         "DataSource": {
           "ID": "debian",
@@ -5674,8 +5253,7 @@
           "https://security.netapp.com/advisory/ntap-20240315-0006/",
           "https://www.cve.org/CVERecord?id=CVE-2023-45918"
         ],
-        "PublishedDate": "2024-02-16T22:15:07.88Z",
-        "LastModifiedDate": "2024-03-15T11:15:08.51Z"
+        "PublishedDate": "2024-02-16T22:15:07.88Z"
       },
       {
         "VulnerabilityID": "CVE-2023-50387",
@@ -5686,9 +5264,6 @@
         },
         "InstalledVersion": "252.22-1~deb12u1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "SeveritySource": "nvd",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-50387",
         "DataSource": {
@@ -5779,8 +5354,7 @@
           "https://www.securityweek.com/keytrap-dns-attack-could-disable-large-parts-of-internet-researchers/",
           "https://www.theregister.com/2024/02/13/dnssec_vulnerability_internet/"
         ],
-        "PublishedDate": "2024-02-14T16:15:45.3Z",
-        "LastModifiedDate": "2024-03-07T17:15:11.587Z"
+        "PublishedDate": "2024-02-14T16:15:45.3Z"
       },
       {
         "VulnerabilityID": "CVE-2023-50868",
@@ -5791,9 +5365,6 @@
         },
         "InstalledVersion": "252.22-1~deb12u1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-50868",
         "DataSource": {
           "ID": "debian",
@@ -5869,8 +5440,7 @@
           "https://www.isc.org/blogs/2024-bind-security-release/",
           "https://www.knot-resolver.cz/2024-02-13-knot-resolver-5.7.1.html"
         ],
-        "PublishedDate": "2024-02-14T16:15:45.377Z",
-        "LastModifiedDate": "2024-03-07T17:15:11.817Z"
+        "PublishedDate": "2024-02-14T16:15:45.377Z"
       },
       {
         "VulnerabilityID": "CVE-2013-4392",
@@ -5881,9 +5451,6 @@
         },
         "InstalledVersion": "252.22-1~deb12u1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2013-4392",
         "DataSource": {
@@ -5920,8 +5487,7 @@
           "https://nvd.nist.gov/vuln/detail/CVE-2013-4392",
           "https://www.cve.org/CVERecord?id=CVE-2013-4392"
         ],
-        "PublishedDate": "2013-10-28T22:55:03.773Z",
-        "LastModifiedDate": "2022-01-31T17:49:14.387Z"
+        "PublishedDate": "2013-10-28T22:55:03.773Z"
       },
       {
         "VulnerabilityID": "CVE-2023-31437",
@@ -5932,9 +5498,6 @@
         },
         "InstalledVersion": "252.22-1~deb12u1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-31437",
         "DataSource": {
@@ -5963,8 +5526,7 @@
           "https://github.com/kastel-security/Journald/blob/main/journald-publication.pdf",
           "https://github.com/systemd/systemd/releases"
         ],
-        "PublishedDate": "2023-06-13T17:15:14.657Z",
-        "LastModifiedDate": "2024-04-11T01:20:11.607Z"
+        "PublishedDate": "2023-06-13T17:15:14.657Z"
       },
       {
         "VulnerabilityID": "CVE-2023-31438",
@@ -5975,9 +5537,6 @@
         },
         "InstalledVersion": "252.22-1~deb12u1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-31438",
         "DataSource": {
@@ -6007,8 +5566,7 @@
           "https://github.com/systemd/systemd/pull/28886",
           "https://github.com/systemd/systemd/releases"
         ],
-        "PublishedDate": "2023-06-13T17:15:14.707Z",
-        "LastModifiedDate": "2024-04-11T01:20:11.66Z"
+        "PublishedDate": "2023-06-13T17:15:14.707Z"
       },
       {
         "VulnerabilityID": "CVE-2023-31439",
@@ -6019,9 +5577,6 @@
         },
         "InstalledVersion": "252.22-1~deb12u1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-31439",
         "DataSource": {
@@ -6051,8 +5606,7 @@
           "https://github.com/systemd/systemd/pull/28885",
           "https://github.com/systemd/systemd/releases"
         ],
-        "PublishedDate": "2023-06-13T17:15:14.753Z",
-        "LastModifiedDate": "2024-04-11T01:20:11.72Z"
+        "PublishedDate": "2023-06-13T17:15:14.753Z"
       },
       {
         "VulnerabilityID": "CVE-2022-0563",
@@ -6063,9 +5617,6 @@
         },
         "InstalledVersion": "2.38.1-5+deb12u1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2022-0563",
         "DataSource": {
@@ -6109,8 +5660,7 @@
           "https://security.netapp.com/advisory/ntap-20220331-0002/",
           "https://www.cve.org/CVERecord?id=CVE-2022-0563"
         ],
-        "PublishedDate": "2022-02-21T19:15:08.393Z",
-        "LastModifiedDate": "2024-01-07T09:15:08.713Z"
+        "PublishedDate": "2022-02-21T19:15:08.393Z"
       },
       {
         "VulnerabilityID": "CVE-2024-25062",
@@ -6121,9 +5671,6 @@
         },
         "InstalledVersion": "2.9.14+dfsg-1.3~deb12u1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:a51d8c86be3d568d68449068aced73afccc6ebfaee253fc0833108b479aad366"
-        },
         "SeveritySource": "nvd",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-25062",
         "DataSource": {
@@ -6162,8 +5709,7 @@
           "https://ubuntu.com/security/notices/USN-6658-2",
           "https://www.cve.org/CVERecord?id=CVE-2024-25062"
         ],
-        "PublishedDate": "2024-02-04T16:15:45.12Z",
-        "LastModifiedDate": "2024-02-13T00:40:40.503Z"
+        "PublishedDate": "2024-02-04T16:15:45.12Z"
       },
       {
         "VulnerabilityID": "CVE-2023-39615",
@@ -6174,9 +5720,6 @@
         },
         "InstalledVersion": "2.9.14+dfsg-1.3~deb12u1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:a51d8c86be3d568d68449068aced73afccc6ebfaee253fc0833108b479aad366"
-        },
         "SeveritySource": "nvd",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-39615",
         "DataSource": {
@@ -6219,8 +5762,7 @@
           "https://nvd.nist.gov/vuln/detail/CVE-2023-39615",
           "https://www.cve.org/CVERecord?id=CVE-2023-39615"
         ],
-        "PublishedDate": "2023-08-29T17:15:12.527Z",
-        "LastModifiedDate": "2024-04-11T01:20:57.89Z"
+        "PublishedDate": "2023-08-29T17:15:12.527Z"
       },
       {
         "VulnerabilityID": "CVE-2023-45322",
@@ -6231,9 +5773,6 @@
         },
         "InstalledVersion": "2.9.14+dfsg-1.3~deb12u1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:a51d8c86be3d568d68449068aced73afccc6ebfaee253fc0833108b479aad366"
-        },
         "SeveritySource": "nvd",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-45322",
         "DataSource": {
@@ -6272,8 +5811,7 @@
           "https://nvd.nist.gov/vuln/detail/CVE-2023-45322",
           "https://www.cve.org/CVERecord?id=CVE-2023-45322"
         ],
-        "PublishedDate": "2023-10-06T22:15:11.66Z",
-        "LastModifiedDate": "2024-04-11T01:21:55.82Z"
+        "PublishedDate": "2023-10-06T22:15:11.66Z"
       },
       {
         "VulnerabilityID": "CVE-2015-9019",
@@ -6284,9 +5822,6 @@
         },
         "InstalledVersion": "1.1.35-1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:a51d8c86be3d568d68449068aced73afccc6ebfaee253fc0833108b479aad366"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2015-9019",
         "DataSource": {
@@ -6324,8 +5859,7 @@
           "https://nvd.nist.gov/vuln/detail/CVE-2015-9019",
           "https://www.cve.org/CVERecord?id=CVE-2015-9019"
         ],
-        "PublishedDate": "2017-04-05T21:59:00.147Z",
-        "LastModifiedDate": "2017-04-11T19:57:32.417Z"
+        "PublishedDate": "2017-04-05T21:59:00.147Z"
       },
       {
         "VulnerabilityID": "CVE-2024-2961",
@@ -6336,9 +5870,6 @@
         },
         "InstalledVersion": "2.36-9+deb12u4",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:a932fe3940248965ea3b18cec5b4732a7c6d7f0342505aa81b78b0664979617d"
-        },
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-2961",
         "DataSource": {
           "ID": "debian",
@@ -6369,8 +5900,7 @@
           "https://www.cve.org/CVERecord?id=CVE-2024-2961",
           "https://www.openwall.com/lists/oss-security/2024/04/17/9"
         ],
-        "PublishedDate": "2024-04-17T18:15:15.833Z",
-        "LastModifiedDate": "2024-04-17T20:08:21.887Z"
+        "PublishedDate": "2024-04-17T18:15:15.833Z"
       },
       {
         "VulnerabilityID": "CVE-2010-4756",
@@ -6381,9 +5911,6 @@
         },
         "InstalledVersion": "2.36-9+deb12u4",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:a932fe3940248965ea3b18cec5b4732a7c6d7f0342505aa81b78b0664979617d"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2010-4756",
         "DataSource": {
@@ -6422,8 +5949,7 @@
           "https://nvd.nist.gov/vuln/detail/CVE-2010-4756",
           "https://www.cve.org/CVERecord?id=CVE-2010-4756"
         ],
-        "PublishedDate": "2011-03-02T20:00:01.037Z",
-        "LastModifiedDate": "2021-09-01T12:15:07.193Z"
+        "PublishedDate": "2011-03-02T20:00:01.037Z"
       },
       {
         "VulnerabilityID": "CVE-2018-20796",
@@ -6434,9 +5960,6 @@
         },
         "InstalledVersion": "2.36-9+deb12u4",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:a932fe3940248965ea3b18cec5b4732a7c6d7f0342505aa81b78b0664979617d"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2018-20796",
         "DataSource": {
@@ -6478,8 +6001,7 @@
           "https://support.f5.com/csp/article/K26346590?utm_source=f5support&amp%3Butm_medium=RSS",
           "https://www.cve.org/CVERecord?id=CVE-2018-20796"
         ],
-        "PublishedDate": "2019-02-26T02:29:00.45Z",
-        "LastModifiedDate": "2023-11-07T02:56:20.983Z"
+        "PublishedDate": "2019-02-26T02:29:00.45Z"
       },
       {
         "VulnerabilityID": "CVE-2019-1010022",
@@ -6490,9 +6012,6 @@
         },
         "InstalledVersion": "2.36-9+deb12u4",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:a932fe3940248965ea3b18cec5b4732a7c6d7f0342505aa81b78b0664979617d"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2019-1010022",
         "DataSource": {
@@ -6527,8 +6046,7 @@
           "https://ubuntu.com/security/CVE-2019-1010022",
           "https://www.cve.org/CVERecord?id=CVE-2019-1010022"
         ],
-        "PublishedDate": "2019-07-15T04:15:13.317Z",
-        "LastModifiedDate": "2024-04-11T01:03:18.89Z"
+        "PublishedDate": "2019-07-15T04:15:13.317Z"
       },
       {
         "VulnerabilityID": "CVE-2019-1010023",
@@ -6539,9 +6057,6 @@
         },
         "InstalledVersion": "2.36-9+deb12u4",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:a932fe3940248965ea3b18cec5b4732a7c6d7f0342505aa81b78b0664979617d"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2019-1010023",
         "DataSource": {
@@ -6579,8 +6094,7 @@
           "https://ubuntu.com/security/CVE-2019-1010023",
           "https://www.cve.org/CVERecord?id=CVE-2019-1010023"
         ],
-        "PublishedDate": "2019-07-15T04:15:13.397Z",
-        "LastModifiedDate": "2024-04-11T01:03:18.97Z"
+        "PublishedDate": "2019-07-15T04:15:13.397Z"
       },
       {
         "VulnerabilityID": "CVE-2019-1010024",
@@ -6591,9 +6105,6 @@
         },
         "InstalledVersion": "2.36-9+deb12u4",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:a932fe3940248965ea3b18cec5b4732a7c6d7f0342505aa81b78b0664979617d"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2019-1010024",
         "DataSource": {
@@ -6635,8 +6146,7 @@
           "https://ubuntu.com/security/CVE-2019-1010024",
           "https://www.cve.org/CVERecord?id=CVE-2019-1010024"
         ],
-        "PublishedDate": "2019-07-15T04:15:13.473Z",
-        "LastModifiedDate": "2024-04-11T01:03:19.04Z"
+        "PublishedDate": "2019-07-15T04:15:13.473Z"
       },
       {
         "VulnerabilityID": "CVE-2019-1010025",
@@ -6647,9 +6157,6 @@
         },
         "InstalledVersion": "2.36-9+deb12u4",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:a932fe3940248965ea3b18cec5b4732a7c6d7f0342505aa81b78b0664979617d"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2019-1010025",
         "DataSource": {
@@ -6690,8 +6197,7 @@
           "https://ubuntu.com/security/CVE-2019-1010025",
           "https://www.cve.org/CVERecord?id=CVE-2019-1010025"
         ],
-        "PublishedDate": "2019-07-15T04:15:13.537Z",
-        "LastModifiedDate": "2024-04-11T01:03:19.103Z"
+        "PublishedDate": "2019-07-15T04:15:13.537Z"
       },
       {
         "VulnerabilityID": "CVE-2019-9192",
@@ -6702,9 +6208,6 @@
         },
         "InstalledVersion": "2.36-9+deb12u4",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:a932fe3940248965ea3b18cec5b4732a7c6d7f0342505aa81b78b0664979617d"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2019-9192",
         "DataSource": {
@@ -6743,8 +6246,7 @@
           "https://support.f5.com/csp/article/K26346590?utm_source=f5support&amp%3Butm_medium=RSS",
           "https://www.cve.org/CVERecord?id=CVE-2019-9192"
         ],
-        "PublishedDate": "2019-02-26T18:29:00.34Z",
-        "LastModifiedDate": "2024-04-11T01:06:17.28Z"
+        "PublishedDate": "2019-02-26T18:29:00.34Z"
       },
       {
         "VulnerabilityID": "CVE-2023-4641",
@@ -6755,9 +6257,6 @@
         },
         "InstalledVersion": "1:4.13+dfsg1-1+b1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "SeveritySource": "nvd",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-4641",
         "DataSource": {
@@ -6804,8 +6303,7 @@
           "https://ubuntu.com/security/notices/USN-6640-1",
           "https://www.cve.org/CVERecord?id=CVE-2023-4641"
         ],
-        "PublishedDate": "2023-12-27T16:15:13.363Z",
-        "LastModifiedDate": "2024-01-04T17:06:55.393Z"
+        "PublishedDate": "2023-12-27T16:15:13.363Z"
       },
       {
         "VulnerabilityID": "CVE-2007-5686",
@@ -6816,9 +6314,6 @@
         },
         "InstalledVersion": "1:4.13+dfsg1-1+b1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2007-5686",
         "DataSource": {
@@ -6850,8 +6345,7 @@
           "http://www.vupen.com/english/advisories/2007/3474",
           "https://issues.rpath.com/browse/RPL-1825"
         ],
-        "PublishedDate": "2007-10-28T17:08:00Z",
-        "LastModifiedDate": "2018-10-15T21:45:59.05Z"
+        "PublishedDate": "2007-10-28T17:08:00Z"
       },
       {
         "VulnerabilityID": "CVE-2019-19882",
@@ -6862,9 +6356,6 @@
         },
         "InstalledVersion": "1:4.13+dfsg1-1+b1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2019-19882",
         "DataSource": {
@@ -6906,8 +6397,7 @@
           "https://security.gentoo.org/glsa/202008-09",
           "https://www.cve.org/CVERecord?id=CVE-2019-19882"
         ],
-        "PublishedDate": "2019-12-18T16:15:26.963Z",
-        "LastModifiedDate": "2020-08-25T15:15:11.903Z"
+        "PublishedDate": "2019-12-18T16:15:26.963Z"
       },
       {
         "VulnerabilityID": "CVE-2023-29383",
@@ -6918,9 +6408,6 @@
         },
         "InstalledVersion": "1:4.13+dfsg1-1+b1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "SeveritySource": "nvd",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-29383",
         "DataSource": {
@@ -6959,8 +6446,7 @@
           "https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/cve-2023-29383-abusing-linux-chfn-to-misrepresent-etc-passwd/",
           "https://www.trustwave.com/en-us/resources/security-resources/security-advisories/?fid=31797"
         ],
-        "PublishedDate": "2023-04-14T22:15:07.68Z",
-        "LastModifiedDate": "2023-04-24T18:05:30.313Z"
+        "PublishedDate": "2023-04-14T22:15:07.68Z"
       },
       {
         "VulnerabilityID": "TEMP-0628843-DBAD28",
@@ -6971,9 +6457,6 @@
         },
         "InstalledVersion": "1:4.13+dfsg1-1+b1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://security-tracker.debian.org/tracker/TEMP-0628843-DBAD28",
         "DataSource": {
@@ -6996,9 +6479,6 @@
         },
         "InstalledVersion": "2.38.1-5+deb12u1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2022-0563",
         "DataSource": {
@@ -7042,8 +6522,7 @@
           "https://security.netapp.com/advisory/ntap-20220331-0002/",
           "https://www.cve.org/CVERecord?id=CVE-2022-0563"
         ],
-        "PublishedDate": "2022-02-21T19:15:08.393Z",
-        "LastModifiedDate": "2024-01-07T09:15:08.713Z"
+        "PublishedDate": "2022-02-21T19:15:08.393Z"
       },
       {
         "VulnerabilityID": "CVE-2023-50495",
@@ -7054,9 +6533,6 @@
         },
         "InstalledVersion": "6.4-4",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "SeveritySource": "nvd",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-50495",
         "DataSource": {
@@ -7093,8 +6569,7 @@
           "https://ubuntu.com/security/notices/USN-6684-1",
           "https://www.cve.org/CVERecord?id=CVE-2023-50495"
         ],
-        "PublishedDate": "2023-12-12T15:15:07.867Z",
-        "LastModifiedDate": "2024-01-31T03:15:08.49Z"
+        "PublishedDate": "2023-12-12T15:15:07.867Z"
       },
       {
         "VulnerabilityID": "CVE-2023-45918",
@@ -7105,9 +6580,6 @@
         },
         "InstalledVersion": "6.4-4",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-45918",
         "DataSource": {
           "ID": "debian",
@@ -7126,8 +6598,7 @@
           "https://security.netapp.com/advisory/ntap-20240315-0006/",
           "https://www.cve.org/CVERecord?id=CVE-2023-45918"
         ],
-        "PublishedDate": "2024-02-16T22:15:07.88Z",
-        "LastModifiedDate": "2024-03-15T11:15:08.51Z"
+        "PublishedDate": "2024-02-16T22:15:07.88Z"
       },
       {
         "VulnerabilityID": "CVE-2023-50495",
@@ -7138,9 +6609,6 @@
         },
         "InstalledVersion": "6.4-4",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "SeveritySource": "nvd",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-50495",
         "DataSource": {
@@ -7177,8 +6645,7 @@
           "https://ubuntu.com/security/notices/USN-6684-1",
           "https://www.cve.org/CVERecord?id=CVE-2023-50495"
         ],
-        "PublishedDate": "2023-12-12T15:15:07.867Z",
-        "LastModifiedDate": "2024-01-31T03:15:08.49Z"
+        "PublishedDate": "2023-12-12T15:15:07.867Z"
       },
       {
         "VulnerabilityID": "CVE-2023-45918",
@@ -7189,9 +6656,6 @@
         },
         "InstalledVersion": "6.4-4",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-45918",
         "DataSource": {
           "ID": "debian",
@@ -7210,8 +6674,7 @@
           "https://security.netapp.com/advisory/ntap-20240315-0006/",
           "https://www.cve.org/CVERecord?id=CVE-2023-45918"
         ],
-        "PublishedDate": "2024-02-16T22:15:07.88Z",
-        "LastModifiedDate": "2024-03-15T11:15:08.51Z"
+        "PublishedDate": "2024-02-16T22:15:07.88Z"
       },
       {
         "VulnerabilityID": "CVE-2023-5678",
@@ -7222,9 +6685,6 @@
         },
         "InstalledVersion": "3.0.11-1~deb12u2",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:a51d8c86be3d568d68449068aced73afccc6ebfaee253fc0833108b479aad366"
-        },
         "SeveritySource": "nvd",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-5678",
         "DataSource": {
@@ -7279,8 +6739,7 @@
           "https://www.cve.org/CVERecord?id=CVE-2023-5678",
           "https://www.openssl.org/news/secadv/20231106.txt"
         ],
-        "PublishedDate": "2023-11-06T16:15:42.67Z",
-        "LastModifiedDate": "2023-11-30T22:15:09.723Z"
+        "PublishedDate": "2023-11-06T16:15:42.67Z"
       },
       {
         "VulnerabilityID": "CVE-2023-6129",
@@ -7291,9 +6750,6 @@
         },
         "InstalledVersion": "3.0.11-1~deb12u2",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:a51d8c86be3d568d68449068aced73afccc6ebfaee253fc0833108b479aad366"
-        },
         "SeveritySource": "nvd",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-6129",
         "DataSource": {
@@ -7334,8 +6790,7 @@
           "https://www.openssl.org/news/secadv/20240109.txt",
           "https://www.openwall.com/lists/oss-security/2024/01/09/1"
         ],
-        "PublishedDate": "2024-01-09T17:15:12.147Z",
-        "LastModifiedDate": "2024-02-16T13:15:09.91Z"
+        "PublishedDate": "2024-01-09T17:15:12.147Z"
       },
       {
         "VulnerabilityID": "CVE-2023-6237",
@@ -7346,9 +6801,6 @@
         },
         "InstalledVersion": "3.0.11-1~deb12u2",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:a51d8c86be3d568d68449068aced73afccc6ebfaee253fc0833108b479aad366"
-        },
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-6237",
         "DataSource": {
           "ID": "debian",
@@ -7387,9 +6839,6 @@
         },
         "InstalledVersion": "3.0.11-1~deb12u2",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:a51d8c86be3d568d68449068aced73afccc6ebfaee253fc0833108b479aad366"
-        },
         "SeveritySource": "nvd",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-0727",
         "DataSource": {
@@ -7442,8 +6891,7 @@
           "https://www.cve.org/CVERecord?id=CVE-2024-0727",
           "https://www.openssl.org/news/secadv/20240125.txt"
         ],
-        "PublishedDate": "2024-01-26T09:15:07.637Z",
-        "LastModifiedDate": "2024-02-08T10:15:13.91Z"
+        "PublishedDate": "2024-01-26T09:15:07.637Z"
       },
       {
         "VulnerabilityID": "CVE-2007-6755",
@@ -7454,9 +6902,6 @@
         },
         "InstalledVersion": "3.0.11-1~deb12u2",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:a51d8c86be3d568d68449068aced73afccc6ebfaee253fc0833108b479aad366"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2007-6755",
         "DataSource": {
@@ -7498,8 +6943,7 @@
           "https://www.cve.org/CVERecord?id=CVE-2007-6755",
           "https://www.schneier.com/blog/archives/2007/11/the_strange_sto.html"
         ],
-        "PublishedDate": "2013-10-11T22:55:33.58Z",
-        "LastModifiedDate": "2022-11-01T14:44:55.093Z"
+        "PublishedDate": "2013-10-11T22:55:33.58Z"
       },
       {
         "VulnerabilityID": "CVE-2010-0928",
@@ -7510,9 +6954,6 @@
         },
         "InstalledVersion": "3.0.11-1~deb12u2",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:a51d8c86be3d568d68449068aced73afccc6ebfaee253fc0833108b479aad366"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2010-0928",
         "DataSource": {
@@ -7548,8 +6989,7 @@
           "https://nvd.nist.gov/vuln/detail/CVE-2010-0928",
           "https://www.cve.org/CVERecord?id=CVE-2010-0928"
         ],
-        "PublishedDate": "2010-03-05T19:30:00.797Z",
-        "LastModifiedDate": "2023-11-07T02:05:11.413Z"
+        "PublishedDate": "2010-03-05T19:30:00.797Z"
       },
       {
         "VulnerabilityID": "CVE-2024-2511",
@@ -7560,9 +7000,6 @@
         },
         "InstalledVersion": "3.0.11-1~deb12u2",
         "Status": "fix_deferred",
-        "Layer": {
-          "DiffID": "sha256:a51d8c86be3d568d68449068aced73afccc6ebfaee253fc0833108b479aad366"
-        },
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-2511",
         "DataSource": {
           "ID": "debian",
@@ -7594,8 +7031,7 @@
           "https://www.openssl.org/news/secadv/20240408.txt",
           "https://www.openssl.org/news/vulnerabilities.html"
         ],
-        "PublishedDate": "2024-04-08T14:15:07.66Z",
-        "LastModifiedDate": "2024-04-08T18:48:40.217Z"
+        "PublishedDate": "2024-04-08T14:15:07.66Z"
       },
       {
         "VulnerabilityID": "CVE-2023-4641",
@@ -7606,9 +7042,6 @@
         },
         "InstalledVersion": "1:4.13+dfsg1-1+b1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "SeveritySource": "nvd",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-4641",
         "DataSource": {
@@ -7655,8 +7088,7 @@
           "https://ubuntu.com/security/notices/USN-6640-1",
           "https://www.cve.org/CVERecord?id=CVE-2023-4641"
         ],
-        "PublishedDate": "2023-12-27T16:15:13.363Z",
-        "LastModifiedDate": "2024-01-04T17:06:55.393Z"
+        "PublishedDate": "2023-12-27T16:15:13.363Z"
       },
       {
         "VulnerabilityID": "CVE-2007-5686",
@@ -7667,9 +7099,6 @@
         },
         "InstalledVersion": "1:4.13+dfsg1-1+b1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2007-5686",
         "DataSource": {
@@ -7701,8 +7130,7 @@
           "http://www.vupen.com/english/advisories/2007/3474",
           "https://issues.rpath.com/browse/RPL-1825"
         ],
-        "PublishedDate": "2007-10-28T17:08:00Z",
-        "LastModifiedDate": "2018-10-15T21:45:59.05Z"
+        "PublishedDate": "2007-10-28T17:08:00Z"
       },
       {
         "VulnerabilityID": "CVE-2019-19882",
@@ -7713,9 +7141,6 @@
         },
         "InstalledVersion": "1:4.13+dfsg1-1+b1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2019-19882",
         "DataSource": {
@@ -7757,8 +7182,7 @@
           "https://security.gentoo.org/glsa/202008-09",
           "https://www.cve.org/CVERecord?id=CVE-2019-19882"
         ],
-        "PublishedDate": "2019-12-18T16:15:26.963Z",
-        "LastModifiedDate": "2020-08-25T15:15:11.903Z"
+        "PublishedDate": "2019-12-18T16:15:26.963Z"
       },
       {
         "VulnerabilityID": "CVE-2023-29383",
@@ -7769,9 +7193,6 @@
         },
         "InstalledVersion": "1:4.13+dfsg1-1+b1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "SeveritySource": "nvd",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-29383",
         "DataSource": {
@@ -7810,8 +7231,7 @@
           "https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/cve-2023-29383-abusing-linux-chfn-to-misrepresent-etc-passwd/",
           "https://www.trustwave.com/en-us/resources/security-resources/security-advisories/?fid=31797"
         ],
-        "PublishedDate": "2023-04-14T22:15:07.68Z",
-        "LastModifiedDate": "2023-04-24T18:05:30.313Z"
+        "PublishedDate": "2023-04-14T22:15:07.68Z"
       },
       {
         "VulnerabilityID": "TEMP-0628843-DBAD28",
@@ -7822,9 +7242,6 @@
         },
         "InstalledVersion": "1:4.13+dfsg1-1+b1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://security-tracker.debian.org/tracker/TEMP-0628843-DBAD28",
         "DataSource": {
@@ -7847,9 +7264,6 @@
         },
         "InstalledVersion": "5.36.0-7+deb12u1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:a51d8c86be3d568d68449068aced73afccc6ebfaee253fc0833108b479aad366"
-        },
         "SeveritySource": "nvd",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-31484",
         "DataSource": {
@@ -7905,8 +7319,7 @@
           "https://www.cve.org/CVERecord?id=CVE-2023-31484",
           "https://www.openwall.com/lists/oss-security/2023/04/18/14"
         ],
-        "PublishedDate": "2023-04-29T00:15:09Z",
-        "LastModifiedDate": "2023-11-07T04:14:19.41Z"
+        "PublishedDate": "2023-04-29T00:15:09Z"
       },
       {
         "VulnerabilityID": "CVE-2011-4116",
@@ -7917,9 +7330,6 @@
         },
         "InstalledVersion": "5.36.0-7+deb12u1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:a51d8c86be3d568d68449068aced73afccc6ebfaee253fc0833108b479aad366"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2011-4116",
         "DataSource": {
@@ -7960,8 +7370,7 @@
           "https://seclists.org/oss-sec/2011/q4/238",
           "https://www.cve.org/CVERecord?id=CVE-2011-4116"
         ],
-        "PublishedDate": "2020-01-31T18:15:11.343Z",
-        "LastModifiedDate": "2020-02-05T22:10:26.29Z"
+        "PublishedDate": "2020-01-31T18:15:11.343Z"
       },
       {
         "VulnerabilityID": "CVE-2023-31486",
@@ -7972,9 +7381,6 @@
         },
         "InstalledVersion": "5.36.0-7+deb12u1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:a51d8c86be3d568d68449068aced73afccc6ebfaee253fc0833108b479aad366"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-31486",
         "DataSource": {
@@ -8028,8 +7434,7 @@
           "https://www.openwall.com/lists/oss-security/2023/05/03/4",
           "https://www.reddit.com/r/perl/comments/111tadi/psa_httptiny_disabled_ssl_verification_by_default/"
         ],
-        "PublishedDate": "2023-04-29T00:15:09.083Z",
-        "LastModifiedDate": "2023-06-21T18:19:52.937Z"
+        "PublishedDate": "2023-04-29T00:15:09.083Z"
       },
       {
         "VulnerabilityID": "CVE-2023-31484",
@@ -8040,9 +7445,6 @@
         },
         "InstalledVersion": "5.36.0-7+deb12u1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "SeveritySource": "nvd",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-31484",
         "DataSource": {
@@ -8098,8 +7500,7 @@
           "https://www.cve.org/CVERecord?id=CVE-2023-31484",
           "https://www.openwall.com/lists/oss-security/2023/04/18/14"
         ],
-        "PublishedDate": "2023-04-29T00:15:09Z",
-        "LastModifiedDate": "2023-11-07T04:14:19.41Z"
+        "PublishedDate": "2023-04-29T00:15:09Z"
       },
       {
         "VulnerabilityID": "CVE-2011-4116",
@@ -8110,9 +7511,6 @@
         },
         "InstalledVersion": "5.36.0-7+deb12u1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2011-4116",
         "DataSource": {
@@ -8153,8 +7551,7 @@
           "https://seclists.org/oss-sec/2011/q4/238",
           "https://www.cve.org/CVERecord?id=CVE-2011-4116"
         ],
-        "PublishedDate": "2020-01-31T18:15:11.343Z",
-        "LastModifiedDate": "2020-02-05T22:10:26.29Z"
+        "PublishedDate": "2020-01-31T18:15:11.343Z"
       },
       {
         "VulnerabilityID": "CVE-2023-31486",
@@ -8165,9 +7562,6 @@
         },
         "InstalledVersion": "5.36.0-7+deb12u1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-31486",
         "DataSource": {
@@ -8221,8 +7615,7 @@
           "https://www.openwall.com/lists/oss-security/2023/05/03/4",
           "https://www.reddit.com/r/perl/comments/111tadi/psa_httptiny_disabled_ssl_verification_by_default/"
         ],
-        "PublishedDate": "2023-04-29T00:15:09.083Z",
-        "LastModifiedDate": "2023-06-21T18:19:52.937Z"
+        "PublishedDate": "2023-04-29T00:15:09.083Z"
       },
       {
         "VulnerabilityID": "CVE-2023-31484",
@@ -8233,9 +7626,6 @@
         },
         "InstalledVersion": "5.36.0-7+deb12u1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:a51d8c86be3d568d68449068aced73afccc6ebfaee253fc0833108b479aad366"
-        },
         "SeveritySource": "nvd",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-31484",
         "DataSource": {
@@ -8291,8 +7681,7 @@
           "https://www.cve.org/CVERecord?id=CVE-2023-31484",
           "https://www.openwall.com/lists/oss-security/2023/04/18/14"
         ],
-        "PublishedDate": "2023-04-29T00:15:09Z",
-        "LastModifiedDate": "2023-11-07T04:14:19.41Z"
+        "PublishedDate": "2023-04-29T00:15:09Z"
       },
       {
         "VulnerabilityID": "CVE-2011-4116",
@@ -8303,9 +7692,6 @@
         },
         "InstalledVersion": "5.36.0-7+deb12u1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:a51d8c86be3d568d68449068aced73afccc6ebfaee253fc0833108b479aad366"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2011-4116",
         "DataSource": {
@@ -8346,8 +7732,7 @@
           "https://seclists.org/oss-sec/2011/q4/238",
           "https://www.cve.org/CVERecord?id=CVE-2011-4116"
         ],
-        "PublishedDate": "2020-01-31T18:15:11.343Z",
-        "LastModifiedDate": "2020-02-05T22:10:26.29Z"
+        "PublishedDate": "2020-01-31T18:15:11.343Z"
       },
       {
         "VulnerabilityID": "CVE-2023-31486",
@@ -8358,9 +7743,6 @@
         },
         "InstalledVersion": "5.36.0-7+deb12u1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:a51d8c86be3d568d68449068aced73afccc6ebfaee253fc0833108b479aad366"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-31486",
         "DataSource": {
@@ -8414,8 +7796,7 @@
           "https://www.openwall.com/lists/oss-security/2023/05/03/4",
           "https://www.reddit.com/r/perl/comments/111tadi/psa_httptiny_disabled_ssl_verification_by_default/"
         ],
-        "PublishedDate": "2023-04-29T00:15:09.083Z",
-        "LastModifiedDate": "2023-06-21T18:19:52.937Z"
+        "PublishedDate": "2023-04-29T00:15:09.083Z"
       },
       {
         "VulnerabilityID": "TEMP-0517018-A83CE6",
@@ -8426,9 +7807,6 @@
         },
         "InstalledVersion": "3.06-4",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://security-tracker.debian.org/tracker/TEMP-0517018-A83CE6",
         "DataSource": {
@@ -8451,9 +7829,6 @@
         },
         "InstalledVersion": "1.34+dfsg-1.2+deb12u1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2005-2541",
         "DataSource": {
@@ -8486,8 +7861,7 @@
           "https://nvd.nist.gov/vuln/detail/CVE-2005-2541",
           "https://www.cve.org/CVERecord?id=CVE-2005-2541"
         ],
-        "PublishedDate": "2005-08-10T04:00:00Z",
-        "LastModifiedDate": "2023-11-07T01:57:39.453Z"
+        "PublishedDate": "2005-08-10T04:00:00Z"
       },
       {
         "VulnerabilityID": "TEMP-0290435-0B57B5",
@@ -8498,9 +7872,6 @@
         },
         "InstalledVersion": "1.34+dfsg-1.2+deb12u1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://security-tracker.debian.org/tracker/TEMP-0290435-0B57B5",
         "DataSource": {
@@ -8523,9 +7894,6 @@
         },
         "InstalledVersion": "2.38.1-5+deb12u1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2022-0563",
         "DataSource": {
@@ -8569,8 +7937,7 @@
           "https://security.netapp.com/advisory/ntap-20220331-0002/",
           "https://www.cve.org/CVERecord?id=CVE-2022-0563"
         ],
-        "PublishedDate": "2022-02-21T19:15:08.393Z",
-        "LastModifiedDate": "2024-01-07T09:15:08.713Z"
+        "PublishedDate": "2022-02-21T19:15:08.393Z"
       },
       {
         "VulnerabilityID": "CVE-2022-0563",
@@ -8581,9 +7948,6 @@
         },
         "InstalledVersion": "2.38.1-5+deb12u1",
         "Status": "affected",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "SeveritySource": "debian",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2022-0563",
         "DataSource": {
@@ -8627,8 +7991,7 @@
           "https://security.netapp.com/advisory/ntap-20220331-0002/",
           "https://www.cve.org/CVERecord?id=CVE-2022-0563"
         ],
-        "PublishedDate": "2022-02-21T19:15:08.393Z",
-        "LastModifiedDate": "2024-01-07T09:15:08.713Z"
+        "PublishedDate": "2022-02-21T19:15:08.393Z"
       },
       {
         "VulnerabilityID": "CVE-2023-45853",
@@ -8639,9 +8002,6 @@
         },
         "InstalledVersion": "1:1.2.13.dfsg-1",
         "Status": "will_not_fix",
-        "Layer": {
-          "DiffID": "sha256:1f00ff20147800878a4ebc9c283f79149a1dde5cc11d659c69d3a9c0bfeb7d4f"
-        },
         "SeveritySource": "nvd",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-45853",
         "DataSource": {
@@ -8698,8 +8058,7 @@
           "https://www.cve.org/CVERecord?id=CVE-2023-45853",
           "https://www.winimage.com/zLibDll/minizip.html"
         ],
-        "PublishedDate": "2023-10-14T02:15:09.323Z",
-        "LastModifiedDate": "2024-01-24T21:15:08.623Z"
+        "PublishedDate": "2023-10-14T02:15:09.323Z"
       }
     ]
   },
