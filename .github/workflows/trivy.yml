@@ -47,7 +47,7 @@ jobs:
             else 
               echo "labels=No new CVE" >> "$GITHUB_OUTPUT"
             fi
-			rm docker-security-scan.json.old
+            rm docker-security-scan.json.old
           else
             echo "first run docker-security-scan.json does not exist. create one!"
             jq '(.Results[] | select(.Vulnerabilities != null) | .Vulnerabilities[] | select(.Layer != null or .LastModifiedDate != null) ) |= del(.Layer, .LastModifiedDate) | .Results' docker-security-scan.json.tmp > docker-security-scan.json
