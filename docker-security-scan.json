@@ -1,6 +1,6 @@
 [
   {
-    "Target": "postgres:14 (debian 12.5)",
+    "Target": "postgres:latest (debian 12.5)",
     "Class": "os-pkgs",
     "Type": "debian",
     "Vulnerabilities": [
@@ -1072,13 +1072,17 @@
       },
       {
         "VulnerabilityID": "CVE-2024-2961",
+        "VendorIDs": [
+          "DSA-5673-1"
+        ],
         "PkgID": "libc-bin@2.36-9+deb12u4",
         "PkgName": "libc-bin",
         "PkgIdentifier": {
           "PURL": "pkg:deb/debian/libc-bin@2.36-9%2Bdeb12u4?arch=amd64&distro=debian-12.5"
         },
         "InstalledVersion": "2.36-9+deb12u4",
-        "Status": "affected",
+        "FixedVersion": "2.36-9+deb12u6",
+        "Status": "fixed",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-2961",
         "DataSource": {
           "ID": "debian",
@@ -1108,6 +1112,7 @@
           "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/YAMJQI3Y6BHWV3CUTYBXOZONCUJNOB2Z/",
           "https://nvd.nist.gov/vuln/detail/CVE-2024-2961",
           "https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0004",
+          "https://sourceware.org/git?p=glibc.git;a=commit;h=f9dc609e06b1136bb0408be9605ce7973a767ada",
           "https://ubuntu.com/security/notices/USN-6737-1",
           "https://www.cve.org/CVERecord?id=CVE-2024-2961",
           "https://www.openwall.com/lists/oss-security/2024/04/17/9"
@@ -1462,13 +1467,17 @@
       },
       {
         "VulnerabilityID": "CVE-2024-2961",
+        "VendorIDs": [
+          "DSA-5673-1"
+        ],
         "PkgID": "libc-l10n@2.36-9+deb12u4",
         "PkgName": "libc-l10n",
         "PkgIdentifier": {
           "PURL": "pkg:deb/debian/libc-l10n@2.36-9%2Bdeb12u4?arch=all&distro=debian-12.5"
         },
         "InstalledVersion": "2.36-9+deb12u4",
-        "Status": "affected",
+        "FixedVersion": "2.36-9+deb12u6",
+        "Status": "fixed",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-2961",
         "DataSource": {
           "ID": "debian",
@@ -1498,6 +1507,7 @@
           "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/YAMJQI3Y6BHWV3CUTYBXOZONCUJNOB2Z/",
           "https://nvd.nist.gov/vuln/detail/CVE-2024-2961",
           "https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0004",
+          "https://sourceware.org/git?p=glibc.git;a=commit;h=f9dc609e06b1136bb0408be9605ce7973a767ada",
           "https://ubuntu.com/security/notices/USN-6737-1",
           "https://www.cve.org/CVERecord?id=CVE-2024-2961",
           "https://www.openwall.com/lists/oss-security/2024/04/17/9"
@@ -1852,13 +1862,17 @@
       },
       {
         "VulnerabilityID": "CVE-2024-2961",
+        "VendorIDs": [
+          "DSA-5673-1"
+        ],
         "PkgID": "libc6@2.36-9+deb12u4",
         "PkgName": "libc6",
         "PkgIdentifier": {
           "PURL": "pkg:deb/debian/libc6@2.36-9%2Bdeb12u4?arch=amd64&distro=debian-12.5"
         },
         "InstalledVersion": "2.36-9+deb12u4",
-        "Status": "affected",
+        "FixedVersion": "2.36-9+deb12u6",
+        "Status": "fixed",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-2961",
         "DataSource": {
           "ID": "debian",
@@ -1888,6 +1902,7 @@
           "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/YAMJQI3Y6BHWV3CUTYBXOZONCUJNOB2Z/",
           "https://nvd.nist.gov/vuln/detail/CVE-2024-2961",
           "https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0004",
+          "https://sourceware.org/git?p=glibc.git;a=commit;h=f9dc609e06b1136bb0408be9605ce7973a767ada",
           "https://ubuntu.com/security/notices/USN-6737-1",
           "https://www.cve.org/CVERecord?id=CVE-2024-2961",
           "https://www.openwall.com/lists/oss-security/2024/04/17/9"
@@ -5872,13 +5887,17 @@
       },
       {
         "VulnerabilityID": "CVE-2024-2961",
+        "VendorIDs": [
+          "DSA-5673-1"
+        ],
         "PkgID": "locales@2.36-9+deb12u4",
         "PkgName": "locales",
         "PkgIdentifier": {
           "PURL": "pkg:deb/debian/locales@2.36-9%2Bdeb12u4?arch=all&distro=debian-12.5"
         },
         "InstalledVersion": "2.36-9+deb12u4",
-        "Status": "affected",
+        "FixedVersion": "2.36-9+deb12u6",
+        "Status": "fixed",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-2961",
         "DataSource": {
           "ID": "debian",
@@ -5908,6 +5927,7 @@
           "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/YAMJQI3Y6BHWV3CUTYBXOZONCUJNOB2Z/",
           "https://nvd.nist.gov/vuln/detail/CVE-2024-2961",
           "https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0004",
+          "https://sourceware.org/git?p=glibc.git;a=commit;h=f9dc609e06b1136bb0408be9605ce7973a767ada",
           "https://ubuntu.com/security/notices/USN-6737-1",
           "https://www.cve.org/CVERecord?id=CVE-2024-2961",
           "https://www.openwall.com/lists/oss-security/2024/04/17/9"
