@@ -73,39 +73,3 @@ jobs:
             This is the docker image security scanning report
           branch: cve
           base: dev
-      - name: Find PRs with label
-        id: find-pr
-        uses: actions/github-script@v6
-        with:
-          github-token: ${{ secrets.PAT }}
-          script: |
-            const label = 'trivy : new CVE detected';
-            const pullRequests = await github.rest.pulls.list({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              state: 'open',
-              base: 'dev',
-              head: 'cve'
-            });
-
-            console.log(`Found ${pullRequests.data.length} Pull Request(s)`);
-
-            const prWithLabel = pullRequests.data.find(pr => pr.labels.some(l => l.name === label));
-
-            if (prWithLabel) {
-              console.log(`Found PR number ${prWithLabel.number} with label ${label}`);
-              return prWithLabel.number;
-            } else {
-              console.log(`No PR found with label ${label}`);
-              return null;
-            }
-
-      - name: show PR ID
-        id: show
-        run: |
-          echo "The PR number is ${{ steps.find-pr.outputs.result }}"   
-
-      - name: Enable Pull Request Automerge
-        run: gh pr merge --merge --auto ${{ steps.find-pr.outputs.result }}
-        env:
-          GH_TOKEN: ${{ secrets.PAT }}
