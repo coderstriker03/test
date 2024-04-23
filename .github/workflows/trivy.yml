@@ -60,7 +60,6 @@ jobs:
             echo "new CVE initilized file!"
 
           fi
-          echo "bonjour" > docker-security-scan.json
 
       - name: Create the Pull Request
         id: cpr
