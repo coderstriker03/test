@@ -47,7 +47,7 @@ jobs:
               echo "new CVE DETECTED!!!!!"
             else 
               echo "labels=No new CVE" >> "$GITHUB_OUTPUT"
-			  echo "NOTHING DETECTED!!!!!"
+              echo "NOTHING DETECTED!!!!!"
             fi
             rm docker-security-scan.json.old
           else
