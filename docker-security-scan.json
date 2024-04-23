@@ -1103,6 +1103,9 @@
         },
         "References": [
           "https://access.redhat.com/security/cve/CVE-2024-2961",
+          "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BTJFBGHDYG5PEIFD5WSSSKSFZ2AZWC5N/",
+          "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/P3I4KYS6EU6S7QZ47WFNTPVAHFIUQNEL/",
+          "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/YAMJQI3Y6BHWV3CUTYBXOZONCUJNOB2Z/",
           "https://nvd.nist.gov/vuln/detail/CVE-2024-2961",
           "https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0004",
           "https://ubuntu.com/security/notices/USN-6737-1",
@@ -1490,6 +1493,9 @@
         },
         "References": [
           "https://access.redhat.com/security/cve/CVE-2024-2961",
+          "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BTJFBGHDYG5PEIFD5WSSSKSFZ2AZWC5N/",
+          "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/P3I4KYS6EU6S7QZ47WFNTPVAHFIUQNEL/",
+          "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/YAMJQI3Y6BHWV3CUTYBXOZONCUJNOB2Z/",
           "https://nvd.nist.gov/vuln/detail/CVE-2024-2961",
           "https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0004",
           "https://ubuntu.com/security/notices/USN-6737-1",
@@ -1877,6 +1883,9 @@
         },
         "References": [
           "https://access.redhat.com/security/cve/CVE-2024-2961",
+          "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BTJFBGHDYG5PEIFD5WSSSKSFZ2AZWC5N/",
+          "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/P3I4KYS6EU6S7QZ47WFNTPVAHFIUQNEL/",
+          "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/YAMJQI3Y6BHWV3CUTYBXOZONCUJNOB2Z/",
           "https://nvd.nist.gov/vuln/detail/CVE-2024-2961",
           "https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0004",
           "https://ubuntu.com/security/notices/USN-6737-1",
@@ -4388,7 +4397,7 @@
         ],
         "VendorSeverity": {
           "alma": 1,
-          "amazon": 3,
+          "amazon": 2,
           "cbl-mariner": 2,
           "nvd": 2,
           "oracle-oval": 2,
@@ -4538,7 +4547,7 @@
         "Description": "Issue summary: Processing a maliciously formatted PKCS12 file may lead OpenSSL\nto crash leading to a potential Denial of Service attack\n\nImpact summary: Applications loading files in the PKCS12 format from untrusted\nsources might terminate abruptly.\n\nA file in PKCS12 format can contain certificates and keys and may come from an\nuntrusted source. The PKCS12 specification allows certain fields to be NULL, but\nOpenSSL does not correctly check for this case. This can lead to a NULL pointer\ndereference that results in OpenSSL crashing. If an application processes PKCS12\nfiles from an untrusted source using the OpenSSL APIs then that application will\nbe vulnerable to this issue.\n\nOpenSSL APIs that are vulnerable to this are: PKCS12_parse(),\nPKCS12_unpack_p7data(), PKCS12_unpack_p7encdata(), PKCS12_unpack_authsafes()\nand PKCS12_newpass().\n\nWe have also fixed a similar issue in SMIME_write_PKCS7(). However since this\nfunction is related to writing data we do not consider it security significant.\n\nThe FIPS modules in 3.2, 3.1 and 3.0 are not affected by this issue.",
         "Severity": "MEDIUM",
         "VendorSeverity": {
-          "amazon": 3,
+          "amazon": 2,
           "ghsa": 2,
           "nvd": 2,
           "photon": 2,
@@ -5894,6 +5903,9 @@
         },
         "References": [
           "https://access.redhat.com/security/cve/CVE-2024-2961",
+          "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BTJFBGHDYG5PEIFD5WSSSKSFZ2AZWC5N/",
+          "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/P3I4KYS6EU6S7QZ47WFNTPVAHFIUQNEL/",
+          "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/YAMJQI3Y6BHWV3CUTYBXOZONCUJNOB2Z/",
           "https://nvd.nist.gov/vuln/detail/CVE-2024-2961",
           "https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0004",
           "https://ubuntu.com/security/notices/USN-6737-1",
@@ -6700,7 +6712,7 @@
         ],
         "VendorSeverity": {
           "alma": 1,
-          "amazon": 3,
+          "amazon": 2,
           "cbl-mariner": 2,
           "nvd": 2,
           "oracle-oval": 2,
@@ -6850,7 +6862,7 @@
         "Description": "Issue summary: Processing a maliciously formatted PKCS12 file may lead OpenSSL\nto crash leading to a potential Denial of Service attack\n\nImpact summary: Applications loading files in the PKCS12 format from untrusted\nsources might terminate abruptly.\n\nA file in PKCS12 format can contain certificates and keys and may come from an\nuntrusted source. The PKCS12 specification allows certain fields to be NULL, but\nOpenSSL does not correctly check for this case. This can lead to a NULL pointer\ndereference that results in OpenSSL crashing. If an application processes PKCS12\nfiles from an untrusted source using the OpenSSL APIs then that application will\nbe vulnerable to this issue.\n\nOpenSSL APIs that are vulnerable to this are: PKCS12_parse(),\nPKCS12_unpack_p7data(), PKCS12_unpack_p7encdata(), PKCS12_unpack_authsafes()\nand PKCS12_newpass().\n\nWe have also fixed a similar issue in SMIME_write_PKCS7(). However since this\nfunction is related to writing data we do not consider it security significant.\n\nThe FIPS modules in 3.2, 3.1 and 3.0 are not affected by this issue.",
         "Severity": "MEDIUM",
         "VendorSeverity": {
-          "amazon": 3,
+          "amazon": 2,
           "ghsa": 2,
           "nvd": 2,
           "photon": 2,
