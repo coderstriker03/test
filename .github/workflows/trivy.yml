@@ -48,3 +48,14 @@ jobs:
             echo "first run docker-security-scan.json does not exist. create one!"
             jq '(.Results[] | select(.Vulnerabilities != null) | .Vulnerabilities[] | select(.Layer != null or .LastModifiedDate != null) ) |= del(.Layer, .LastModifiedDate) | .Results' docker-security-scan.json.tmp > docker-security-scan.json
           fi
+      - name: Create the Pull Request
+        id: cpr
+        uses: peter-evans/create-pull-request@v4
+        with:
+          author: mergify-ci-bot <mergify-ci-bot@users.noreply.github.com>
+          title: "chore(docker): image security scanning report"
+          labels: ${{ steps.update.outputs.labels }}
+          body: >
+            This is the docker image security scanning report
+          branch: trivy/daily-report
+          base: main
