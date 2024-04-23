@@ -31,40 +31,40 @@ jobs:
           severity: "UNKNOWN,LOW,MEDIUM,HIGH,CRITICAL"
           output: "docker-security-scan.json.tmp"
 
-      - name: Keep only the results section
-        id: update
-        run: |
-          if [ -f docker-security-scan.json ]; then
-            BEFORE="$(jq '.[].Vulnerabilities|length' < docker-security-scan.json)"
-            jq '(.Results[] | select(.Vulnerabilities != null) | .Vulnerabilities[] | select(.Layer != null or .LastModifiedDate != null) ) |= del(.Layer, .LastModifiedDate) | .Results' docker-security-scan.json.tmp > docker-security-scan.json
-            rm -f docker-security-scan.json.tmp
-            AFTER="$(jq '.[].Vulnerabilities|length' < docker-security-scan.json| head -1)"
-            if [[ $BEFORE -lt $AFTER ]]; then
-              echo "labels=new CVE" >> "$GITHUB_OUTPUT"
-            fi
-          else
-            echo "first run docker-security-scan.json does not exist. create one!"
-            jq '(.Results[] | select(.Vulnerabilities != null) | .Vulnerabilities[] | select(.Layer != null or .LastModifiedDate != null) ) |= del(.Layer, .LastModifiedDate) | .Results' docker-security-scan.json.tmp > docker-security-scan.json
-          fi
-
-      - name: Check file existence
-        id: check_files
-        uses: andstor/file-existence-action@v1
-        with:
-          files: "docker-security-scan.json"
-      
-      - name: File exists
-        if: steps.check_files.outputs.files_exists == 'true'
-        run: echo "It exists !"
-
-      - name: Upload security scan result as artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: security-scan-results
-          path: docker-security-scan.json
+      #- name: Keep only the results section
+      #  id: update
+      #  run: |
+      #    if [ -f docker-security-scan.json ]; then
+      #      BEFORE="$(jq '.[].Vulnerabilities|length' < docker-security-scan.json)"
+      #      jq '(.Results[] | select(.Vulnerabilities != null) | .Vulnerabilities[] | select(.Layer != null or .LastModifiedDate != null) ) |= del(.Layer, .LastModifiedDate) | .Results' docker-security-scan.json.tmp > docker-security-scan.json
+      #      rm -f docker-security-scan.json.tmp
+      #      AFTER="$(jq '.[].Vulnerabilities|length' < docker-security-scan.json| head -1)"
+      #      if [[ $BEFORE -lt $AFTER ]]; then
+      #        echo "labels=new CVE" >> "$GITHUB_OUTPUT"
+      #      fi
+      #    else
+      #      echo "first run docker-security-scan.json does not exist. create one!"
+      #      jq '(.Results[] | select(.Vulnerabilities != null) | .Vulnerabilities[] | select(.Layer != null or .LastModifiedDate != null) ) |= del(.Layer, .LastModifiedDate) | .Results' docker-security-scan.json.tmp > docker-security-scan.json
+      ##    fi
+	  #
+      #- name: Check file existence
+      #  id: check_files
+      #  uses: andstor/file-existence-action@v1
+      #  with:
+      #    files: "docker-security-scan.json"
+      #
+      #- name: File exists
+      #  if: steps.check_files.outputs.files_exists == 'true'
+      #  run: echo "It exists !"
+	  #
+      #- name: Upload security scan result as artifact
+      #  uses: actions/upload-artifact@v4
+      #  with:
+      #    name: security-scan-results
+      #    path: docker-security-scan.json
 
       - uses: actions/download-artifact@v4
         with:
           name: security-scan-results
       - name: Display structure of downloaded files
-        run: ls -R
+        run: ls -lrt
