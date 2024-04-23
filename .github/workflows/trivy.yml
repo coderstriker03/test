@@ -1,3 +1,4 @@
+###moded logic ##
 name: Scan docker image
 permissions: read-all
 
@@ -57,7 +58,7 @@ jobs:
         run: echo "It exists !"
 
       - name: Upload security scan result as artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: security-scan-results
           path: docker-security-scan.json
