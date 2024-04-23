@@ -20,12 +20,12 @@ jobs:
         uses: actions/checkout@v3.3.0
 
       - name: ☁️ Download latest image
-        run: docker pull postgres:14
+        run: docker pull postgres:16
 
       - name: Run Trivy vulnerability scanner
         uses: aquasecurity/trivy-action@master
         with:
-          image-ref: "postgres:14"
+          image-ref: "postgres:16"
           format: "json"
           vuln-type: "os,library"
           severity: "UNKNOWN,LOW,MEDIUM,HIGH,CRITICAL"
@@ -71,7 +71,7 @@ jobs:
           labels: ${{ steps.update.outputs.labels }}
           body: >
             This is the docker image security scanning report
-          branch: cve2
+          branch: cve
           base: dev
       - name: Find PRs with label
         id: find-pr
