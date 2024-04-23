@@ -46,8 +46,8 @@ jobs:
               echo "labels=No new CVE" >> "$GITHUB_OUTPUT"
               echo "no new CVE DETECTED"
             else 
-              echo "labels=new CVE" >> "$GITHUB_OUTPUT"
-              echo "new CVE detected!"
+              echo "labels=trivy : new CVE detected" >> "$GITHUB_OUTPUT"
+              echo "trivy : new CVE detected!"
             fi
             rm docker-security-scan.json.old
           else
@@ -56,8 +56,8 @@ jobs:
             sed -i '/"DiffID": "sha256/d' docker-security-scan.json
             sed -i '/BEGIN PRIVATE KEY/d' docker-security-scan.json
             rm -f docker-security-scan.json.tmp
-            echo "labels=new CVE" >> "$GITHUB_OUTPUT"
-            echo "new CVE initilized!"
+            echo "labels=trivy : new CVE detected" >> "$GITHUB_OUTPUT"
+            echo "new CVE initilized file!"
 
           fi
 
@@ -79,7 +79,7 @@ jobs:
         with:
           github-token: ${{ secrets.PAT }}
           script: |
-            const label = 'new CVE';
+            const label = 'trivy : new CVE detected';
             const pullRequests = await github.rest.pulls.list({
               owner: context.repo.owner,
               repo: context.repo.repo,
@@ -104,3 +104,8 @@ jobs:
         id: show
         run: |
           echo "The PR number is ${{ steps.find-pr.outputs.result }}"   
+
+      - name: Enable Pull Request Automerge
+        run: gh pr merge --merge --auto ${{ steps.find-pr.outputs.result }}
+        env:
+          GH_TOKEN: ${{ secrets.PAT }}
