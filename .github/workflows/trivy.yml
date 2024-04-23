@@ -71,4 +71,4 @@ jobs:
           body: >
             This is the docker image security scanning report
           branch: dev
-          base: main
+          base: dev
