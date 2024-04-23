@@ -44,8 +44,10 @@ jobs:
             #AFTER="$(jq '.[].Vulnerabilities|length' < docker-security-scan.json| head -1)"
             if cmp docker-security-scan.json docker-security-scan.json.old ; then
               echo "labels=new CVE" >> "$GITHUB_OUTPUT"
+              echo "new CVE DETECTED!!!!!"
             else 
               echo "labels=No new CVE" >> "$GITHUB_OUTPUT"
+			  echo "NOTHING DETECTED!!!!!"
             fi
             rm docker-security-scan.json.old
           else
