@@ -71,7 +71,7 @@ jobs:
           labels: ${{ steps.update.outputs.labels }}
           body: >
             This is the docker image security scanning report
-          branch: cve
+          branch: cve2
           base: dev
       - name: Find PRs with label
         id: find-pr
